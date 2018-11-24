@@ -89,11 +89,10 @@ def enumGroupMembers(host, users):
     return users
 
 def enumUsers(host):
-    command = ["rpcclient", host, "-U", username + "%" + password, + "-c"]
-
+    command = ["rpcclient", host, "-U", username + "%" + password, "-c"]
     # Enumerate usernames and rids
-    usersTxt = subprocess.run(command + ["queryusergroups " + users[name]["rid"]], encoding = "ascii", stdout = subprocess.PIPE).stdout
-    
+    usersTxt = subprocess.run(command+["enumdomusers"], encoding="ascii", stdout=subprocess.PIPE).stdout.splitlines()    
+    usersDict = splitIntoDict(usersTxt)
     for name in usersDict:
         # Enumerate SID and info of each user
 
