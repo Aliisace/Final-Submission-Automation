@@ -1,9 +1,9 @@
 import os
 import subprocess
 import sys
+import writeToFile
 
-hosts = {"192.168.0.1","192.168.0.2"}
-clients = {"192.168.0.10","192.168.0.11"}
+hosts = {"192.168.0.1", "192.168.0.2"}
 
 #Get users
 #Store users in user array
@@ -112,12 +112,27 @@ def enumUsers(host):
 # end enumUsers
 
 if __name__ == "__main__":
-    print(os.path.basename(__file__))
     for host in hosts:
-        print(host + ":\n\n")
-        results[host] = {"users": enumUsers(host)}
-        for index,user in enumerate(results[host]["users"]): 
-            print("User: " + user + "\t", end="")
-            if len(user) < 10:
-                print("\t", end="")
-			print("| SID: " + results[host]["users"][user]["sid"]) 
+        print("host: " + host + "\nusers:")
+        with open("/root/Desktop/Automation/Enumeration/Results/%s.txt" % host, "w") as file:
+            file.write(str(host) + ":\n\n")
+            results[host] = {"users": enumUsers(host)}
+            for index,user in enumerate(results[host]["users"]):
+                print("\t" + user)
+                file.write("User: " + str(user)  + "\n")
+                file.write("\t| SID: " + str(results[host]["users"][user]["sid"]) + "\n")
+                file.write("\t| RID: " + str(results[host]["users"][user]["rid"]) + "\n") 
+                file.write("\t| Groups: \n")
+                for index,group in enumerate(results[host]["users"][user]["groups"]):
+                    file.write("\t\t| Name: " + str(group) + "\n\t\t\t| RID: " + str(results[host]["users"][user]["groups"][group]["rid"]) + "\n")
+                file.write("\n\t| Aliases: ") 
+                for index,alias in enumerate(results[host]["users"][user]["aliases"]):
+                    file.write("\n\t\t" + str(alias) + "\n")
+                file.write("\n")
+        print("\n")
+        writeToFile.writeFile(results, host)
+        with open("/root/Desktop/Automation/Enumeration/Results/Raw Info %s.txt" % host, "w") as file:
+            file.write("Host: " + host + "\n") 
+            for index,user in enumerate(results[host]["users"]):
+                file.write("User: "+user +"\n | Raw info: \n")
+                file.write(str(results[host]["users"][user]["rawinfo"]) + "\n")
