@@ -3,20 +3,7 @@ import subprocess
 import sys
 import writeToFile
 
-hosts = {"192.168.0.1", "192.168.0.2"}
-
-#Get users
-#Store users in user array
-#Get user info and store in array
-
-#print(['192.168.0.1']['users']['D.jin']['name'])
-#print(['192.168.0.1']['users']['D.jin']['rid'])
-#print(['192.168.0.1']['users']['D.jin']['groups'])
-#print(['192.168.0.1']['users']['D.jin']['groups']['rid'])
-#print(['192.168.0.1']['users']['D.jin']['groups']['']  )
-#print(['192.168.0.1']['users']['D.jin']['info'])
-
-#print(['192.168.0.1']['groups']['Administrator']['rid'])
+hosts = {}
 
 results = {}
 #Array of users with [name][info]
