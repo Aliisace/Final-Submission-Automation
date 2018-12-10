@@ -1,0 +1,71 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 07:44 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 07:44
+Scanning 192.168.0.11 [1 port]
+Completed ARP Ping Scan at 07:44, 0.18s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 07:44
+Completed Parallel DNS resolution of 1 host. at 07:44, 0.01s elapsed
+Initiating UDP Scan at 07:44
+Scanning 192.168.0.11 [500 ports]
+Increasing send delay for 192.168.0.11 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 192.168.0.11 from 50 to 100 due to max_successful_tryno increase to 6
+Warning: 192.168.0.11 giving up on port because retransmission cap hit (6).
+Increasing send delay for 192.168.0.11 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.0.11 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 11.17% done; ETC: 07:49 (0:04:06 remaining)
+Increasing send delay for 192.168.0.11 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 16.43% done; ETC: 07:50 (0:05:10 remaining)
+Increasing send delay for 192.168.0.11 from 800 to 1000 due to 11 out of 19 dropped probes since last increase.
+UDP Scan Timing: About 34.71% done; ETC: 07:52 (0:04:50 remaining)
+UDP Scan Timing: About 41.31% done; ETC: 07:52 (0:04:26 remaining)
+UDP Scan Timing: About 47.31% done; ETC: 07:52 (0:04:02 remaining)
+Discovered open port 137/udp on 192.168.0.11
+UDP Scan Timing: About 54.31% done; ETC: 07:52 (0:03:38 remaining)
+UDP Scan Timing: About 60.71% done; ETC: 07:52 (0:03:13 remaining)
+UDP Scan Timing: About 66.71% done; ETC: 07:52 (0:02:44 remaining)
+UDP Scan Timing: About 72.71% done; ETC: 07:52 (0:02:14 remaining)
+UDP Scan Timing: About 78.71% done; ETC: 07:52 (0:01:45 remaining)
+UDP Scan Timing: About 84.71% done; ETC: 07:52 (0:01:15 remaining)
+UDP Scan Timing: About 90.51% done; ETC: 07:53 (0:00:48 remaining)
+Completed UDP Scan at 07:53, 518.37s elapsed (500 total ports)
+Initiating Service scan at 07:53
+Scanning 16 services on 192.168.0.11
+Service scan Timing: About 12.50% done; ETC: 08:01 (0:07:00 remaining)
+Service scan Timing: About 43.75% done; ETC: 07:56 (0:01:58 remaining)
+Completed Service scan at 07:55, 102.59s elapsed (16 services on 1 host)
+NSE: Script scanning 192.168.0.11.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 07:55
+Completed NSE at 07:55, 4.15s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 07:55
+Completed NSE at 07:55, 1.04s elapsed
+Nmap scan report for 192.168.0.11
+Host is up, received arp-response (0.00090s latency).
+Scanned at 2018-12-06 07:44:44 EST for 626s
+Not shown: 484 closed ports
+Reason: 484 port-unreaches
+PORT    STATE         SERVICE     REASON               VERSION
+11/udp  open|filtered systat      no-response
+31/udp  open|filtered msg-auth    no-response
+39/udp  open|filtered rlp         no-response
+123/udp open|filtered ntp         no-response
+137/udp open          netbios-ns  udp-response ttl 128 Microsoft Windows netbios-ssn (workgroup: UADTARGETNET)
+138/udp open|filtered netbios-dgm no-response
+189/udp open|filtered qft         no-response
+236/udp open|filtered unknown     no-response
+244/udp open|filtered dayna       no-response
+265/udp open|filtered x-bone-ctl  no-response
+364/udp open|filtered aurora-cmgr no-response
+369/udp open|filtered rpc2portmap no-response
+372/udp open|filtered ulistserv   no-response
+442/udp open|filtered cvc_hostd   no-response
+451/udp open|filtered sfs-smp-net no-response
+500/udp open|filtered isakmp      no-response
+MAC Address: 00:50:56:33:A7:38 (VMware)
+Service Info: Host: CLIENT2; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 626.80 seconds
+           Raw packets sent: 719 (22.199KB) | Rcvd: 492 (27.980KB)

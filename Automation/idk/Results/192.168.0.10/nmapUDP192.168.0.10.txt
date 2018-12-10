@@ -1,0 +1,71 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 07:32 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 07:32
+Scanning 192.168.0.10 [1 port]
+Completed ARP Ping Scan at 07:32, 0.03s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 07:32
+Completed Parallel DNS resolution of 1 host. at 07:32, 0.01s elapsed
+Initiating UDP Scan at 07:32
+Scanning 192.168.0.10 [500 ports]
+Increasing send delay for 192.168.0.10 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 192.168.0.10 from 50 to 100 due to max_successful_tryno increase to 6
+Warning: 192.168.0.10 giving up on port because retransmission cap hit (6).
+Increasing send delay for 192.168.0.10 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.0.10 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 11.20% done; ETC: 07:37 (0:04:06 remaining)
+Increasing send delay for 192.168.0.10 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 16.49% done; ETC: 07:38 (0:05:09 remaining)
+Increasing send delay for 192.168.0.10 from 800 to 1000 due to 11 out of 19 dropped probes since last increase.
+UDP Scan Timing: About 27.34% done; ETC: 07:40 (0:05:30 remaining)
+UDP Scan Timing: About 33.94% done; ETC: 07:40 (0:05:06 remaining)
+UDP Scan Timing: About 39.94% done; ETC: 07:40 (0:04:41 remaining)
+UDP Scan Timing: About 45.94% done; ETC: 07:40 (0:04:15 remaining)
+UDP Scan Timing: About 51.94% done; ETC: 07:40 (0:03:49 remaining)
+UDP Scan Timing: About 57.94% done; ETC: 07:40 (0:03:21 remaining)
+UDP Scan Timing: About 64.34% done; ETC: 07:40 (0:02:55 remaining)
+UDP Scan Timing: About 70.14% done; ETC: 07:40 (0:02:27 remaining)
+UDP Scan Timing: About 76.14% done; ETC: 07:40 (0:01:58 remaining)
+Discovered open port 137/udp on 192.168.0.10
+UDP Scan Timing: About 82.14% done; ETC: 07:40 (0:01:28 remaining)
+UDP Scan Timing: About 88.14% done; ETC: 07:40 (0:00:59 remaining)
+Completed UDP Scan at 07:41, 511.51s elapsed (500 total ports)
+Initiating Service scan at 07:41
+Scanning 15 services on 192.168.0.10
+Service scan Timing: About 13.33% done; ETC: 07:48 (0:06:30 remaining)
+Service scan Timing: About 60.00% done; ETC: 07:43 (0:01:02 remaining)
+Completed Service scan at 07:42, 102.59s elapsed (15 services on 1 host)
+NSE: Script scanning 192.168.0.10.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 07:42
+Completed NSE at 07:43, 4.10s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 07:43
+Completed NSE at 07:43, 1.06s elapsed
+Nmap scan report for 192.168.0.10
+Host is up, received arp-response (0.0012s latency).
+Scanned at 2018-12-06 07:32:41 EST for 620s
+Not shown: 485 closed ports
+Reason: 485 port-unreaches
+PORT    STATE         SERVICE     REASON               VERSION
+55/udp  open|filtered isi-gl      no-response
+64/udp  open|filtered covia       no-response
+80/udp  open|filtered http        no-response
+123/udp open|filtered ntp         no-response
+137/udp open          netbios-ns  udp-response ttl 128 Microsoft Windows netbios-ssn (workgroup: UADTARGETNET)
+138/udp open|filtered netbios-dgm no-response
+139/udp open|filtered netbios-ssn no-response
+141/udp open|filtered emfis-cntl  no-response
+157/udp open|filtered knet-cmp    no-response
+218/udp open|filtered mpp         no-response
+263/udp open|filtered hdap        no-response
+292/udp open|filtered unknown     no-response
+479/udp open|filtered iafserver   no-response
+488/udp open|filtered gss-http    no-response
+500/udp open|filtered isakmp      no-response
+MAC Address: 00:0C:29:1F:15:CB (VMware)
+Service Info: Host: CLIENT1; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 619.75 seconds
+           Raw packets sent: 713 (22.153KB) | Rcvd: 492 (28.002KB)

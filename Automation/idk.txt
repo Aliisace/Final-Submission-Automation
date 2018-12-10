@@ -1,0 +1,21 @@
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c srvinfo > Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c querydominfo >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumprocs >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumdrivers >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumports >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumtrust >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumprinters >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumprivs >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumprocdatatypes >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enummonitors >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumalsgroups domain >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumalsgroups builtin >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumdomains >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumdomgroups >> Results/" + ip + "/rpcclient" + ip + ".txt")
+os.system("/usr/bin/rpcclient  " + ip + " -A creds.txt -c enumdomusers >> Results/" + ip + "/rpcclient" + ip + ".txt")
+
+queryaliasinfo        querydominfo          querysecret
+queryaliasmem         querygroup            queryuser
+querydispinfo         querygroupmem         queryuseraliases
+querydispinfo2        querymultiplevalues   queryusergroups
+querydispinfo3        querymultiplevalues2 

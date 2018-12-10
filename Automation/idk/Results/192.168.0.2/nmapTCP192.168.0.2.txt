@@ -1,0 +1,110 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 07:05 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 07:05
+Scanning 192.168.0.2 [1 port]
+Completed ARP Ping Scan at 07:05, 0.37s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 07:05
+Completed Parallel DNS resolution of 1 host. at 07:05, 0.19s elapsed
+Initiating Connect Scan at 07:05
+Scanning 192.168.0.2 [65535 ports]
+Discovered open port 135/tcp on 192.168.0.2
+Discovered open port 139/tcp on 192.168.0.2
+Discovered open port 445/tcp on 192.168.0.2
+Discovered open port 23/tcp on 192.168.0.2
+Discovered open port 53/tcp on 192.168.0.2
+Discovered open port 80/tcp on 192.168.0.2
+Discovered open port 54704/tcp on 192.168.0.2
+Discovered open port 49157/tcp on 192.168.0.2
+Discovered open port 47001/tcp on 192.168.0.2
+Discovered open port 49158/tcp on 192.168.0.2
+Discovered open port 593/tcp on 192.168.0.2
+Discovered open port 49154/tcp on 192.168.0.2
+Discovered open port 61998/tcp on 192.168.0.2
+Discovered open port 49152/tcp on 192.168.0.2
+Discovered open port 61996/tcp on 192.168.0.2
+Discovered open port 54716/tcp on 192.168.0.2
+Discovered open port 88/tcp on 192.168.0.2
+Discovered open port 42/tcp on 192.168.0.2
+Discovered open port 464/tcp on 192.168.0.2
+Discovered open port 61987/tcp on 192.168.0.2
+Discovered open port 49155/tcp on 192.168.0.2
+Discovered open port 636/tcp on 192.168.0.2
+Discovered open port 61997/tcp on 192.168.0.2
+Discovered open port 3269/tcp on 192.168.0.2
+Discovered open port 49153/tcp on 192.168.0.2
+Discovered open port 3268/tcp on 192.168.0.2
+Discovered open port 389/tcp on 192.168.0.2
+Completed Connect Scan at 07:06, 53.64s elapsed (65535 total ports)
+Initiating Service scan at 07:06
+Scanning 27 services on 192.168.0.2
+Service scan Timing: About 62.96% done; ETC: 07:07 (0:00:31 remaining)
+Completed Service scan at 07:07, 58.57s elapsed (27 services on 1 host)
+Initiating OS detection (try #1) against 192.168.0.2
+NSE: Script scanning 192.168.0.2.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 07:07
+Completed NSE at 07:07, 0.08s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 07:07
+Completed NSE at 07:07, 0.01s elapsed
+Nmap scan report for 192.168.0.2
+Host is up, received arp-response (0.00089s latency).
+Scanned at 2018-12-06 07:05:27 EST for 114s
+Not shown: 65508 closed ports
+Reason: 65508 conn-refused
+PORT      STATE SERVICE      REASON  VERSION
+23/tcp    open  telnet       syn-ack Microsoft Windows XP telnetd
+42/tcp    open  tcpwrapped   syn-ack
+53/tcp    open  domain       syn-ack Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+80/tcp    open  http         syn-ack Microsoft IIS httpd 7.5
+88/tcp    open  kerberos-sec syn-ack Microsoft Windows Kerberos (server time: 2018-12-06 12:06:28Z)
+135/tcp   open  msrpc        syn-ack Microsoft Windows RPC
+139/tcp   open  netbios-ssn  syn-ack Microsoft Windows netbios-ssn
+389/tcp   open  ldap         syn-ack Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+445/tcp   open  microsoft-ds syn-ack Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: UADTARGETNET)
+464/tcp   open  kpasswd5?    syn-ack
+593/tcp   open  ncacn_http   syn-ack Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped   syn-ack
+3268/tcp  open  ldap         syn-ack Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+3269/tcp  open  tcpwrapped   syn-ack
+47001/tcp open  http         syn-ack Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49152/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49153/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49154/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49155/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49157/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49158/tcp open  ncacn_http   syn-ack Microsoft Windows RPC over HTTP 1.0
+54704/tcp open  msrpc        syn-ack Microsoft Windows RPC
+54716/tcp open  msrpc        syn-ack Microsoft Windows RPC
+61987/tcp open  msrpc        syn-ack Microsoft Windows RPC
+61996/tcp open  msrpc        syn-ack Microsoft Windows RPC
+61997/tcp open  msrpc        syn-ack Microsoft Windows RPC
+61998/tcp open  msrpc        syn-ack Microsoft Windows RPC
+MAC Address: 00:50:56:3A:42:9F (VMware)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=12/6%OT=23%CT=1%CU=39035%PV=Y%DS=1%DC=D%G=Y%M=005056%T
+OS:M=5C0910F9%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10F%TI=I%CI=I%II=I
+OS:%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8S
+OS:T11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=20
+OS:00%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=8
+OS:0%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(
+OS:R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F
+OS:=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%
+OS:T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD
+OS:=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE
+OS:(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.551 days (since Wed Dec  5 17:53:51 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: SERVER2; OSs: Windows XP, Windows; CPE: cpe:/o:microsoft:windows_xp, cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 121.33 seconds
+           Raw packets sent: 17 (1.446KB) | Rcvd: 17 (1.358KB)

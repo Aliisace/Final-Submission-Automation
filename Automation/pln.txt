@@ -1,0 +1,88 @@
+Cara
+	ping
+	nmap tcp
+	nmap udp
+	rpcclient
+		srvinfo
+		querydominfo
+		enumdomusers
+		enumalsgroups
+		"lookupnames administrators"
+		"lookupnames administrator"
+		"queryuser 500"
+	dig host - dns zone transfers wk 6
+		uadtargetnet.com
+	nslookup
+		IP
+		uadtargetnet.com
+Sam
+	host only
+		enum host users
+		enum group members
+		enum alias members
+
+to do
+	windows
+	3	netstat k/w
+			/?
+			-an
+		tracert
+		pathping
+		fping?
+		arp-ping
+	4	golden-ftp-server-free-setup.exe
+			run, w/ defaults
+			see wk 4
+		email banner grabbing
+			see wk 4
+	6	nbtstat
+			see wk 6
+			netbios
+		user2sid/sid2user
+	8	MBSA
+			scan 127.0.0.1
+		
+	kali
+	3	arping
+		netdiscover
+			-eth0
+			-eth1
+		fping
+			-g
+		hping3
+			-help
+		nc
+			-h
+			-zv
+		nping
+	6	nslookup
+			see wk 6
+	4	nmap
+			full connect/vanilla
+			syn
+			udp
+			see wk 4
+		masscan
+		sparta
+		osfucate
+	6	rpcclient
+			srvinfo
+			querydominfo
+			enum (then hit TAB twice) to show all the enum 
+			enumdomusers
+			enumalsgroups builtin
+			enumalsgroups domain
+			lookupnames administrators
+			lookupnames administrator
+			221 possibilities - google shit
+		snmp-check
+			see wk 6
+	8	nmap
+			-script vuln
+		lynis
+		searchsploit
+		Nessus
+			see wk 8
+		armitage/metasploit
+			see wk 8
+	9	

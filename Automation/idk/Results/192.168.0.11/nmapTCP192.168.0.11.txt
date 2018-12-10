@@ -1,0 +1,74 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 07:43 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 07:43
+Scanning 192.168.0.11 [1 port]
+Completed ARP Ping Scan at 07:43, 0.03s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 07:43
+Completed Parallel DNS resolution of 1 host. at 07:43, 0.01s elapsed
+Initiating Connect Scan at 07:43
+Scanning 192.168.0.11 [65535 ports]
+Discovered open port 445/tcp on 192.168.0.11
+Discovered open port 135/tcp on 192.168.0.11
+Discovered open port 139/tcp on 192.168.0.11
+Discovered open port 49176/tcp on 192.168.0.11
+Discovered open port 49154/tcp on 192.168.0.11
+Discovered open port 49152/tcp on 192.168.0.11
+Discovered open port 49153/tcp on 192.168.0.11
+Discovered open port 49167/tcp on 192.168.0.11
+Discovered open port 49175/tcp on 192.168.0.11
+Completed Connect Scan at 07:43, 41.92s elapsed (65535 total ports)
+Initiating Service scan at 07:43
+Scanning 9 services on 192.168.0.11
+Service scan Timing: About 44.44% done; ETC: 07:45 (0:01:08 remaining)
+Completed Service scan at 07:44, 58.58s elapsed (9 services on 1 host)
+Initiating OS detection (try #1) against 192.168.0.11
+NSE: Script scanning 192.168.0.11.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 07:44
+Completed NSE at 07:44, 0.02s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 07:44
+Completed NSE at 07:44, 0.00s elapsed
+Nmap scan report for 192.168.0.11
+Host is up, received arp-response (0.00087s latency).
+Scanned at 2018-12-06 07:43:02 EST for 102s
+Not shown: 65526 closed ports
+Reason: 65526 conn-refused
+PORT      STATE SERVICE      REASON  VERSION
+135/tcp   open  msrpc        syn-ack Microsoft Windows RPC
+139/tcp   open  netbios-ssn  syn-ack Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds syn-ack Microsoft Windows 7 - 10 microsoft-ds (workgroup: UADTARGETNET)
+49152/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49153/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49154/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49167/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49175/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49176/tcp open  msrpc        syn-ack Microsoft Windows RPC
+MAC Address: 00:50:56:33:A7:38 (VMware)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=12/6%OT=135%CT=1%CU=37739%PV=Y%DS=1%DC=D%G=Y%M=005056%
+OS:TM=5C0919BC%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10D%TI=I%CI=I%II=
+OS:I%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8
+OS:ST11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2
+OS:000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=
+OS:80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3
+OS:(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%
+OS:F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y
+OS:%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%R
+OS:D=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)I
+OS:E(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 2.836 days (since Mon Dec  3 11:41:33 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: CLIENT2; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 102.16 seconds
+           Raw packets sent: 17 (1.446KB) | Rcvd: 17 (1.358KB)

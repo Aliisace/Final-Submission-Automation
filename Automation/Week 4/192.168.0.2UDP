@@ -1,0 +1,39 @@
+# Nmap 7.70 scan initiated Thu Dec  6 12:25:17 2018 as: nmap -sU -v -v -T4 -sV -oN 192.168.0.2UDP 192.168.0.2
+Warning: 192.168.0.2 giving up on port because retransmission cap hit (6).
+Increasing send delay for 192.168.0.2 from 100 to 200 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 192.168.0.2 from 200 to 400 due to 11 out of 19 dropped probes since last increase.
+Increasing send delay for 192.168.0.2 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.0.2 from 800 to 1000 due to 11 out of 19 dropped probes since last increase.
+Nmap scan report for 192.168.0.2
+Host is up, received arp-response (0.00085s latency).
+Scanned at 2018-12-06 12:25:17 EST for 1273s
+Not shown: 908 closed ports, 71 open|filtered ports
+Reason: 908 port-unreaches and 71 no-responses
+PORT      STATE SERVICE      REASON               VERSION
+53/udp    open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+88/udp    open  kerberos-sec udp-response         Microsoft Windows Kerberos (server time: 2018-12-06 17:41:50Z)
+123/udp   open  ntp          udp-response ttl 128 Microsoft NTP
+137/udp   open  netbios-ns   udp-response ttl 128 Microsoft Windows netbios-ssn (workgroup: UADTARGETNET)
+389/udp   open  ldap         udp-response ttl 128 Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+60172/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+60381/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+60423/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61024/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61142/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61319/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61322/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61370/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61412/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61481/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61550/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61685/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61961/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+62154/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+62287/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+62575/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+MAC Address: 00:50:56:3A:42:9F (VMware)
+Service Info: Host: SERVER2; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Dec  6 12:46:30 2018 -- 1 IP address (1 host up) scanned in 1273.22 seconds

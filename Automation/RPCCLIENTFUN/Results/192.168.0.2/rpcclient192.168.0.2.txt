@@ -1,0 +1,211 @@
+	192.168.0.2    Wk Sv BDC NT         
+	platform_id     :	500
+	os version      :	6.1
+	server type     :	0x801013
+Domain:		UADTARGETNET
+Server:		
+Comment:	
+Total Users:	155
+Total Groups:	0
+Total Aliases:	17
+Sequence No:	1
+Force Logoff:	-1
+Domain Server State:	0x1
+Server Role:	ROLE_DOMAIN_BDC
+Unknown 3:	0x1
+Server does not support environment [Windows NT R4000]
+Server does not support environment [Windows NT Alpha_AXP]
+Server does not support environment [Windows NT PowerPC]
+
+[Windows x64]
+Printer Driver Info 1:
+	Driver Name: [TP Output Gateway PS]
+
+Printer Driver Info 1:
+	Driver Name: [TP Output Gateway]
+
+Printer Driver Info 1:
+	Driver Name: [Microsoft XPS Document Writer]
+
+	Port Name:	[TPVM:]
+	Port Name:	[COM1:]
+	Port Name:	[COM2:]
+	Port Name:	[COM3:]
+	Port Name:	[COM4:]
+	Port Name:	[FILE:]
+	Port Name:	[LPT1:]
+	Port Name:	[LPT2:]
+	Port Name:	[LPT3:]
+	Port Name:	[XPSPort:]
+No printers returned.
+found 34 privileges
+
+SeCreateTokenPrivilege 		0:2 (0x0:0x2)
+SeAssignPrimaryTokenPrivilege 		0:3 (0x0:0x3)
+SeLockMemoryPrivilege 		0:4 (0x0:0x4)
+SeIncreaseQuotaPrivilege 		0:5 (0x0:0x5)
+SeMachineAccountPrivilege 		0:6 (0x0:0x6)
+SeTcbPrivilege 		0:7 (0x0:0x7)
+SeSecurityPrivilege 		0:8 (0x0:0x8)
+SeTakeOwnershipPrivilege 		0:9 (0x0:0x9)
+SeLoadDriverPrivilege 		0:10 (0x0:0xa)
+SeSystemProfilePrivilege 		0:11 (0x0:0xb)
+SeSystemtimePrivilege 		0:12 (0x0:0xc)
+SeProfileSingleProcessPrivilege 		0:13 (0x0:0xd)
+SeIncreaseBasePriorityPrivilege 		0:14 (0x0:0xe)
+SeCreatePagefilePrivilege 		0:15 (0x0:0xf)
+SeCreatePermanentPrivilege 		0:16 (0x0:0x10)
+SeBackupPrivilege 		0:17 (0x0:0x11)
+SeRestorePrivilege 		0:18 (0x0:0x12)
+SeShutdownPrivilege 		0:19 (0x0:0x13)
+SeDebugPrivilege 		0:20 (0x0:0x14)
+SeAuditPrivilege 		0:21 (0x0:0x15)
+SeSystemEnvironmentPrivilege 		0:22 (0x0:0x16)
+SeChangeNotifyPrivilege 		0:23 (0x0:0x17)
+SeRemoteShutdownPrivilege 		0:24 (0x0:0x18)
+SeUndockPrivilege 		0:25 (0x0:0x19)
+SeSyncAgentPrivilege 		0:26 (0x0:0x1a)
+SeEnableDelegationPrivilege 		0:27 (0x0:0x1b)
+SeManageVolumePrivilege 		0:28 (0x0:0x1c)
+SeImpersonatePrivilege 		0:29 (0x0:0x1d)
+SeCreateGlobalPrivilege 		0:30 (0x0:0x1e)
+SeTrustedCredManAccessPrivilege 		0:31 (0x0:0x1f)
+SeRelabelPrivilege 		0:32 (0x0:0x20)
+SeIncreaseWorkingSetPrivilege 		0:33 (0x0:0x21)
+SeTimeZonePrivilege 		0:34 (0x0:0x22)
+SeCreateSymbolicLinkPrivilege 		0:35 (0x0:0x23)
+name_array: RAW
+name_array: RAW [FF appended]
+name_array: RAW [FF auto]
+name_array: NT EMF 1.003
+name_array: NT EMF 1.006
+name_array: NT EMF 1.007
+name_array: NT EMF 1.008
+name_array: TEXT
+monitor_name: WSD Port
+monitor_name: ThinPrint Print Port Monitor for VMWare
+monitor_name: Standard TCP/IP Port
+monitor_name: Local Port
+name:[UADTARGETNET] idx:[0x0]
+name:[Builtin] idx:[0x0]
+group:[Enterprise Read-only Domain Controllers] rid:[0x1f2]
+group:[Domain Admins] rid:[0x200]
+group:[Domain Users] rid:[0x201]
+group:[Domain Guests] rid:[0x202]
+group:[Domain Computers] rid:[0x203]
+group:[Domain Controllers] rid:[0x204]
+group:[Schema Admins] rid:[0x206]
+group:[Enterprise Admins] rid:[0x207]
+group:[Group Policy Creator Owners] rid:[0x208]
+group:[Read-only Domain Controllers] rid:[0x209]
+group:[DnsUpdateProxy] rid:[0x44f]
+group:[Human Resources] rid:[0x450]
+group:[Legal] rid:[0x451]
+group:[Finance] rid:[0x452]
+group:[Engineering] rid:[0x453]
+group:[Sales] rid:[0x454]
+group:[Information Technology] rid:[0x455]
+user:[Administrator] rid:[0x1f4]
+user:[Guest] rid:[0x1f5]
+user:[krbtgt] rid:[0x1f6]
+user:[Benny Hill] rid:[0x3e8]
+user:[R.Gudino] rid:[0x20da]
+user:[E.Breck] rid:[0x20db]
+user:[D.Lecroy] rid:[0x20dc]
+user:[C.Armes] rid:[0x20dd]
+user:[C.Yother] rid:[0x20de]
+user:[K.Dipaola] rid:[0x20df]
+user:[M.Lanasa] rid:[0x20e0]
+user:[D.Clinard] rid:[0x20e1]
+user:[W.Parekh] rid:[0x20e2]
+user:[N.Hooton] rid:[0x20e3]
+user:[D.Mcdonough] rid:[0x20e4]
+user:[M.Bonneau] rid:[0x20e5]
+user:[F.Nelms] rid:[0x20e6]
+user:[E.Hillhouse] rid:[0x20e7]
+user:[M.Lampe] rid:[0x20e8]
+user:[L.Mcnaughton] rid:[0x20e9]
+user:[D.Halas] rid:[0x20ea]
+user:[R.Burstein] rid:[0x20eb]
+user:[V.Layman] rid:[0x20ec]
+user:[A.Marsland] rid:[0x20ed]
+user:[D.Rosamond] rid:[0x20ee]
+user:[B.Riche] rid:[0x20ef]
+user:[J.Wiste] rid:[0x20f0]
+user:[T.Lefebre] rid:[0x20f1]
+user:[S.Dalrymple] rid:[0x20f2]
+user:[R.Stoneking] rid:[0x20f3]
+user:[S.Russom] rid:[0x20f4]
+user:[M.Maxwell] rid:[0x20f5]
+user:[Z.Sowders] rid:[0x20f6]
+user:[M.Hoy] rid:[0x20f7]
+user:[C.Selzer] rid:[0x20f8]
+user:[K.Leiker] rid:[0x20f9]
+user:[S.Gerst] rid:[0x20fa]
+user:[D.Kennemer] rid:[0x20fb]
+user:[L.Angelo] rid:[0x20fc]
+user:[L.Gamino] rid:[0x20fd]
+user:[S.Tacey] rid:[0x20fe]
+user:[E.Bouknight] rid:[0x20ff]
+user:[L.Soriano] rid:[0x2100]
+user:[M.Wentz] rid:[0x2101]
+user:[G.Fuller] rid:[0x2102]
+user:[C.Linen] rid:[0x2103]
+user:[J.Murrell] rid:[0x2104]
+user:[A.Eisenmenger] rid:[0x2105]
+user:[S.Poore] rid:[0x2106]
+user:[A.Fritzler] rid:[0x2107]
+user:[M.Otter] rid:[0x2108]
+user:[S.Kerfoot] rid:[0x2109]
+user:[B.Saari] rid:[0x210a]
+user:[M.Colberg] rid:[0x210b]
+user:[V.Reighard] rid:[0x210c]
+user:[S.Leverich] rid:[0x210d]
+user:[C.Hernadez] rid:[0x210e]
+user:[E.Bolander] rid:[0x210f]
+user:[S.Abercrombie] rid:[0x2110]
+user:[D.Kawasaki] rid:[0x2111]
+user:[J.Killion] rid:[0x2112]
+user:[C.Spann] rid:[0x2113]
+user:[E.Bascom] rid:[0x2114]
+user:[W.Haakenson] rid:[0x2115]
+user:[K.Corney] rid:[0x2116]
+user:[K.Husby] rid:[0x2117]
+user:[R.Avina] rid:[0x2118]
+user:[C.Corpuz] rid:[0x2119]
+user:[M.Tilman] rid:[0x211a]
+user:[T.Blass] rid:[0x211b]
+user:[B.Schweitzer] rid:[0x211c]
+user:[W.Loch] rid:[0x211d]
+user:[N.Broady] rid:[0x211e]
+user:[L.Sarver] rid:[0x211f]
+user:[F.Ousley] rid:[0x2120]
+user:[T.Prestidge] rid:[0x2121]
+user:[G.Nordeen] rid:[0x2122]
+user:[G.Youngberg] rid:[0x2123]
+user:[R.Zoll] rid:[0x2124]
+user:[M.Thiel] rid:[0x2125]
+user:[N.Bitterman] rid:[0x2126]
+user:[V.Teran] rid:[0x2127]
+user:[M.Pascucci] rid:[0x2128]
+user:[F.Lu] rid:[0x2129]
+user:[I.Cortright] rid:[0x212a]
+user:[M.Birdwell] rid:[0x212b]
+user:[E.Mogan] rid:[0x212c]
+user:[F.Lietz] rid:[0x212d]
+user:[A.Mckendree] rid:[0x212e]
+user:[R.Sepeda] rid:[0x212f]
+user:[D.Doolin] rid:[0x2130]
+user:[J.Schack] rid:[0x2131]
+user:[E.Leclaire] rid:[0x2132]
+user:[J.Uribe] rid:[0x2133]
+user:[Y.Lezama] rid:[0x2134]
+user:[B.Evert] rid:[0x2135]
+user:[D.Jin] rid:[0x2136]
+user:[O.Sandoval] rid:[0x2137]
+user:[Y.Weinstein] rid:[0x2138]
+user:[C.Brice] rid:[0x2139]
+user:[H.Shiba] rid:[0x213a]
+user:[G.Chica] rid:[0x213b]
+user:[M.Hershberger] rid:[0x213c]
+user:[test] rid:[0x213e]

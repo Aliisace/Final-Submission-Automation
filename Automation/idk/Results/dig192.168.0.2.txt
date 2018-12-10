@@ -1,0 +1,38 @@
+
+; <<>> DiG 9.11.3-1-Debian <<>> host -t axfr uadtargetnet.com 192.168.0.2
+;; global options: +cmd
+; Transfer failed.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 51722
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 512
+;; QUESTION SECTION:
+;uadtargetnet.com.		IN	A
+
+;; AUTHORITY SECTION:
+com.			5	IN	SOA	a.gtld-servers.net. nstld.verisign-grs.com. 1543946050 1800 900 604800 86400
+
+;; Query time: 20 msec
+;; SERVER: 192.168.78.2#53(192.168.78.2)
+;; WHEN: Tue Dec 04 13:10:15 EST 2018
+;; MSG SIZE  rcvd: 118
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17598
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 512
+;; QUESTION SECTION:
+;192.168.0.2.			IN	A
+
+;; AUTHORITY SECTION:
+.			5	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018120400 1800 900 604800 86400
+
+;; Query time: 19 msec
+;; SERVER: 192.168.78.2#53(192.168.78.2)
+;; WHEN: Tue Dec 04 13:10:15 EST 2018
+;; MSG SIZE  rcvd: 115
+

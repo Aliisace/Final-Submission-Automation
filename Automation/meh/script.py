@@ -1,9 +1,22 @@
 import os
 import subprocess
 import sys
-import writeToFile
 
-hosts = {"192.168.0.1", "192.168.0.2"}
+hosts = {"192.168.0.1","192.168.0.2"}
+clients = {"192.168.0.10","192.168.0.11"}
+
+#Get users
+#Store users in user array
+#Get user info and store in array
+
+#print(['192.168.0.1']['users']['D.jin']['name'])
+#print(['192.168.0.1']['users']['D.jin']['rid'])
+#print(['192.168.0.1']['users']['D.jin']['groups'])
+#print(['192.168.0.1']['users']['D.jin']['groups']['rid'])
+#print(['192.168.0.1']['users']['D.jin']['groups']['']  )
+#print(['192.168.0.1']['users']['D.jin']['info'])
+
+#print(['192.168.0.1']['groups']['Administrator']['rid'])
 
 results = {}
 #Array of users with [name][info]
@@ -31,7 +44,7 @@ def enumAliases(host):
     for i in dicts:
         # Enumerate aliases and rids
         dicts[i] = splitIntoDict(subprocess.run(command+["enumalsgroups " + i], encoding="ascii", stdout=subprocess.PIPE).stdout.splitlines())
- 
+
     return dicts
 # end enumAliases
 
@@ -58,7 +71,7 @@ def enumGroups(host):
     
     # Enumerate groups and rids
     groupsDict = splitIntoDict(subprocess.run(command+["enumdomgroups"], encoding="ascii", stdout=subprocess.PIPE).stdout.splitlines())
-  
+
     return groupsDict
 # end enumGroups
 
@@ -70,7 +83,7 @@ def enumGroupMembers(host, users):
         users[name]["groups"] = {}
         # Get a list of groups for that user
         usrGroups = subprocess.run(command+["queryusergroups " + users[name]["rid"]], encoding="ascii", stdout=subprocess.PIPE).stdout
- 
+
         for group in groups:
             if groups[group]["rid"] in usrGroups:
                 # Append group to users[name]["aliases"]
@@ -99,28 +112,12 @@ def enumUsers(host):
 # end enumUsers
 
 if __name__ == "__main__":
+    print(os.path.basename(__file__))
     for host in hosts:
-        print("host: " + host + "\n")
-        with open("/root/Desktop/Automation/Enumeration/Results/%s.txt" % host, "w") as file:
-            file.write(str(host) + ":\n\n")
-            print("User: \n")
-            results[host] = {"users": enumUsers(host)}
-            for index,user in enumerate(results[host]["users"]):
-                print("\t" + user)
-                file.write("User: " + str(user)  + "\n")
-                file.write("\t| SID: " + str(results[host]["users"][user]["sid"]) + "\n")
-                file.write("\t| RID: " + str(results[host]["users"][user]["rid"]) + "\n") 
-                file.write("\t| Groups: \n")
-                for index,group in enumerate(results[host]["users"][user]["groups"]):
-                    file.write("\t\t| Name: " + str(group) + "\n\t\t\t| RID: " + str(results[host]["users"][user]["groups"][group]["rid"]) + "\n")
-                file.write("\n\t| Aliases: ") 
-                for index,alias in enumerate(results[host]["users"][user]["aliases"]):
-                    file.write("\n\t\t" + str(alias) + "\n")
-                file.write("\n")
-        print("\n")
-        writeToFile.writeFile(results, host)
-        with open("/root/Desktop/Automation/Enumeration/Results/Raw Info %s.txt" % host, "w") as file:
-            file.write("Host: " + host + "\n") 
-            for index,user in enumerate(results[host]["users"]):
-                file.write("User: "+user +"\n | Raw info: \n")
-                file.write(str(results[host]["users"][user]["rawinfo"]) + "\n")        
+        print(host + ":\n\n")
+        results[host] = {"users": enumUsers(host)}
+        for index,user in enumerate(results[host]["users"]): 
+            print("User: " + user + "\t", end="")
+            if len(user) < 10:
+                print("\t", end="")
+			print("| SID: " + results[host]["users"][user]["sid"]) 

@@ -1,0 +1,7 @@
+Cannot connect to server.  Error was NT_STATUS_LOGON_FAILURE
+Cannot connect to server.  Error was NT_STATUS_LOGON_FAILURE
+Cannot connect to server.  Error was NT_STATUS_LOGON_FAILURE
+Cannot connect to server.  Error was NT_STATUS_LOGON_FAILURE
+Cannot connect to server.  Error was NT_STATUS_LOGON_FAILURE
+Cannot connect to server.  Error was NT_STATUS_LOGON_FAILURE
+Cannot connect to server.  Error was NT_STATUS_LOGON_FAILURE

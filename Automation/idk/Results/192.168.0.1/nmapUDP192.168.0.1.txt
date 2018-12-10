@@ -1,0 +1,82 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 07:20 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 07:20
+Scanning 192.168.0.1 [1 port]
+Completed ARP Ping Scan at 07:20, 0.04s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 07:20
+Completed Parallel DNS resolution of 1 host. at 07:20, 0.01s elapsed
+Initiating UDP Scan at 07:20
+Scanning 192.168.0.1 [500 ports]
+Increasing send delay for 192.168.0.1 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 192.168.0.1 from 50 to 100 due to max_successful_tryno increase to 6
+Warning: 192.168.0.1 giving up on port because retransmission cap hit (6).
+Increasing send delay for 192.168.0.1 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Discovered open port 137/udp on 192.168.0.1
+Increasing send delay for 192.168.0.1 from 200 to 400 due to 11 out of 12 dropped probes since last increase.
+UDP Scan Timing: About 11.34% done; ETC: 07:24 (0:04:02 remaining)
+Increasing send delay for 192.168.0.1 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 16.63% done; ETC: 07:26 (0:05:06 remaining)
+Increasing send delay for 192.168.0.1 from 800 to 1000 due to 11 out of 19 dropped probes since last increase.
+UDP Scan Timing: About 34.89% done; ETC: 07:27 (0:04:47 remaining)
+UDP Scan Timing: About 43.69% done; ETC: 07:27 (0:04:24 remaining)
+UDP Scan Timing: About 49.91% done; ETC: 07:28 (0:03:59 remaining)
+UDP Scan Timing: About 55.91% done; ETC: 07:28 (0:03:31 remaining)
+Discovered open port 389/udp on 192.168.0.1
+UDP Scan Timing: About 61.91% done; ETC: 07:28 (0:03:03 remaining)
+UDP Scan Timing: About 68.31% done; ETC: 07:28 (0:02:36 remaining)
+UDP Scan Timing: About 74.11% done; ETC: 07:28 (0:02:10 remaining)
+Discovered open port 53/udp on 192.168.0.1
+UDP Scan Timing: About 79.91% done; ETC: 07:28 (0:01:43 remaining)
+UDP Scan Timing: About 85.71% done; ETC: 07:28 (0:01:13 remaining)
+UDP Scan Timing: About 91.34% done; ETC: 07:28 (0:00:44 remaining)
+Discovered open port 123/udp on 192.168.0.1
+Completed UDP Scan at 07:29, 540.47s elapsed (500 total ports)
+Initiating Service scan at 07:29
+Scanning 22 services on 192.168.0.1
+Discovered open port 88/udp on 192.168.0.1
+Discovered open|filtered port 88/udp on 192.168.0.1 is actually open
+Service scan Timing: About 27.27% done; ETC: 07:32 (0:02:40 remaining)
+Service scan Timing: About 50.00% done; ETC: 07:32 (0:01:32 remaining)
+Completed Service scan at 07:30, 102.60s elapsed (22 services on 1 host)
+NSE: Script scanning 192.168.0.1.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 07:30
+Completed NSE at 07:30, 7.29s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 07:30
+Completed NSE at 07:31, 1.03s elapsed
+Nmap scan report for 192.168.0.1
+Host is up, received arp-response (0.0010s latency).
+Scanned at 2018-12-06 07:20:08 EST for 652s
+Not shown: 478 closed ports
+Reason: 478 port-unreaches
+PORT    STATE         SERVICE      REASON               VERSION
+42/udp  open|filtered nameserver   no-response
+53/udp  open          domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+88/udp  open          kerberos-sec udp-response         Microsoft Windows Kerberos (server time: 2018-12-06 12:29:14Z)
+117/udp open|filtered uucp-path    no-response
+123/udp open          ntp          udp-response ttl 128 NTP v3
+137/udp open          netbios-ns   udp-response ttl 128 Microsoft Windows netbios-ssn (workgroup: UADTARGETNET)
+138/udp open|filtered netbios-dgm  no-response
+139/udp open|filtered netbios-ssn  no-response
+158/udp open|filtered pcmail-srv   no-response
+161/udp open|filtered snmp         no-response
+165/udp open|filtered xns-courier  no-response
+188/udp open|filtered mumps        no-response
+219/udp open|filtered uarps        no-response
+257/udp open|filtered set          no-response
+289/udp open|filtered unknown      no-response
+314/udp open|filtered opalis-robot no-response
+325/udp open|filtered unknown      no-response
+333/udp open|filtered texar        no-response
+389/udp open          ldap         udp-response ttl 128 Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+464/udp open|filtered kpasswd5     no-response
+479/udp open|filtered iafserver    no-response
+500/udp open|filtered isakmp       no-response
+MAC Address: 00:0C:29:65:8E:40 (VMware)
+Service Info: Host: SERVER1; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 651.97 seconds
+           Raw packets sent: 741 (22.859KB) | Rcvd: 493 (28.121KB)

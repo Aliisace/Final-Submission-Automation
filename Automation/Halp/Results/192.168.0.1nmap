@@ -1,0 +1,86 @@
+# Nmap 7.70 scan initiated Thu Dec  6 11:20:07 2018 as: /usr/bin/nmap --script vuln -oN Results/192.168.0.1nmap 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.00097s latency).
+Not shown: 979 closed ports
+PORT      STATE SERVICE
+23/tcp    open  telnet
+42/tcp    open  nameserver
+53/tcp    open  domain
+80/tcp    open  http
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=192.168.0.1
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: http://192.168.0.1:80/student/
+|     Form id: 
+|_    Form action: process_form.php
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|   /: Root directory w/ directory listing
+|_  /icons/: Potentially interesting folder w/ directory listing
+| http-fileupload-exploiter: 
+|   
+|     Couldn't find a file-type field.
+|   
+|_    Couldn't find a file-type field.
+| http-sql-injection: 
+|   Possible sqli for queries:
+|     http://192.168.0.1:80/student/js/?C=N%3bO%3dD%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=S%3bO%3dD%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=D%3bO%3dD%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://192.168.0.1:80/student/js/?C=S%3bO%3dA%27%20OR%20sqlspider
+|_    http://192.168.0.1:80/student/js/?C=M%3bO%3dA%27%20OR%20sqlspider
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-trace: TRACE is enabled
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+|_sslv2-drown: 
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+|_sslv2-drown: 
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+|_sslv2-drown: 
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49160/tcp open  unknown
+49161/tcp open  unknown
+MAC Address: 00:0C:29:65:8E:40 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED
+| smb-vuln-ms17-010: 
+|   VULNERABLE:
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2017-0143
+|     Risk factor: HIGH
+|       A critical remote code execution vulnerability exists in Microsoft SMBv1
+|        servers (ms17-010).
+|           
+|     Disclosure date: 2017-03-14
+|     References:
+|       https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+|       https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
+
+# Nmap done at Thu Dec  6 11:21:31 2018 -- 1 IP address (1 host up) scanned in 84.30 seconds

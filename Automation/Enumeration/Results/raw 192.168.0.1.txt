@@ -1,0 +1,1983 @@
+{
+    "192.168.0.1": {
+        "users": {
+            "Administrator": {
+                "name": "Administrator",
+                "rid": "0x1f4",
+                "rawinfo": "\tUser Name   :\tAdministrator\n\tFull Name   :\t\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\tBuilt-in account for administering the computer/domain\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 24 Oct 2018 06:08:13 EDT\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 31 Dec 1969 19:00:00 EST\n\tPassword last set Time   :\tTue, 17 Oct 2017 10:18:48 EDT\n\tPassword can change Time :\tTue, 17 Oct 2017 10:18:48 EDT\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x1f4\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000210\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000065\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-500",
+                "groups": {
+                    "Domain Admins": {
+                        "name": "Domain Admins",
+                        "rid": "0x200"
+                    },
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Schema Admins": {
+                        "name": "Schema Admins",
+                        "rid": "0x206"
+                    },
+                    "Enterprise Admins": {
+                        "name": "Enterprise Admins",
+                        "rid": "0x207"
+                    },
+                    "Group Policy Creator Owners": {
+                        "name": "Group Policy Creator Owners",
+                        "rid": "0x208"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "Guest": {
+                "name": "Guest",
+                "rid": "0x1f5",
+                "rawinfo": "\tUser Name   :\tGuest\n\tFull Name   :\t\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\tBuilt-in account for guest access to the computer/domain\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tWed, 31 Dec 1969 19:00:00 EST\n\tPassword can change Time :\tWed, 31 Dec 1969 19:00:00 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x1f5\n\tgroup_rid:\t0x202\n\tacb_info :\t0x00000215\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-501",
+                "groups": {
+                    "Domain Guests": {
+                        "name": "Domain Guests",
+                        "rid": "0x202"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "krbtgt": {
+                "name": "krbtgt",
+                "rid": "0x1f6",
+                "rawinfo": "\tUser Name   :\tkrbtgt\n\tFull Name   :\t\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\tKey Distribution Center Service Account\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tTue, 24 Jan 2017 09:46:56 EST\n\tPassword can change Time :\tTue, 24 Jan 2017 09:46:56 EST\n\tPassword must change Time:\tFri, 10 Jun 2044 09:46:56 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x1f6\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000011\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-502",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    }
+                },
+                "aliases": {
+                    "domain": {
+                        "Denied RODC Password Replication Group": {
+                            "name": "Denied RODC Password Replication Group",
+                            "rid": "0x23c"
+                        }
+                    }
+                }
+            },
+            "Benny Hill": {
+                "name": "Benny Hill",
+                "rid": "0x3e8",
+                "rawinfo": "\tUser Name   :\tBenny Hill\n\tFull Name   :\t\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tFri, 08 Apr 2016 10:09:52 EDT\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 31 Dec 1969 19:00:00 EST\n\tPassword last set Time   :\tFri, 08 Apr 2016 10:09:30 EDT\n\tPassword can change Time :\tFri, 08 Apr 2016 10:09:30 EDT\n\tPassword must change Time:\tMon, 24 Aug 2043 09:09:30 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x3e8\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000010\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000001\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "R.Gudino": {
+                "name": "R.Gudino",
+                "rid": "0x20da",
+                "rawinfo": "\tUser Name   :\tR.Gudino\n\tFull Name   :\tRoselyn Gudino\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:13 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:13 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20da\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8410",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "E.Breck": {
+                "name": "E.Breck",
+                "rid": "0x20db",
+                "rawinfo": "\tUser Name   :\tE.Breck\n\tFull Name   :\tEneida Breck\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:13 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:13 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20db\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8411",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Lecroy": {
+                "name": "D.Lecroy",
+                "rid": "0x20dc",
+                "rawinfo": "\tUser Name   :\tD.Lecroy\n\tFull Name   :\tDeena Lecroy\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:13 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:13 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20dc\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8412",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "C.Armes": {
+                "name": "C.Armes",
+                "rid": "0x20dd",
+                "rawinfo": "\tUser Name   :\tC.Armes\n\tFull Name   :\tCharissa Armes\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:13 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:13 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20dd\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8413",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "C.Yother": {
+                "name": "C.Yother",
+                "rid": "0x20de",
+                "rawinfo": "\tUser Name   :\tC.Yother\n\tFull Name   :\tCandance Yother\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20de\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8414",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "K.Dipaola": {
+                "name": "K.Dipaola",
+                "rid": "0x20df",
+                "rawinfo": "\tUser Name   :\tK.Dipaola\n\tFull Name   :\tKristie Dipaola\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20df\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8415",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Lanasa": {
+                "name": "M.Lanasa",
+                "rid": "0x20e0",
+                "rawinfo": "\tUser Name   :\tM.Lanasa\n\tFull Name   :\tMisha Lanasa\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e0\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8416",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Clinard": {
+                "name": "D.Clinard",
+                "rid": "0x20e1",
+                "rawinfo": "\tUser Name   :\tD.Clinard\n\tFull Name   :\tDonya Clinard\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 24 Oct 2018 06:02:31 EDT\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e1\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000001\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8417",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "W.Parekh": {
+                "name": "W.Parekh",
+                "rid": "0x20e2",
+                "rawinfo": "\tUser Name   :\tW.Parekh\n\tFull Name   :\tWm Parekh\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e2\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8418",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "N.Hooton": {
+                "name": "N.Hooton",
+                "rid": "0x20e3",
+                "rawinfo": "\tUser Name   :\tN.Hooton\n\tFull Name   :\tNedra Hooton\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e3\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8419",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Mcdonough": {
+                "name": "D.Mcdonough",
+                "rid": "0x20e4",
+                "rawinfo": "\tUser Name   :\tD.Mcdonough\n\tFull Name   :\tDusti Mcdonough\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e4\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8420",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Bonneau": {
+                "name": "M.Bonneau",
+                "rid": "0x20e5",
+                "rawinfo": "\tUser Name   :\tM.Bonneau\n\tFull Name   :\tMargert Bonneau\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e5\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8421",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "F.Nelms": {
+                "name": "F.Nelms",
+                "rid": "0x20e6",
+                "rawinfo": "\tUser Name   :\tF.Nelms\n\tFull Name   :\tFernande Nelms\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e6\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8422",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "E.Hillhouse": {
+                "name": "E.Hillhouse",
+                "rid": "0x20e7",
+                "rawinfo": "\tUser Name   :\tE.Hillhouse\n\tFull Name   :\tEnola Hillhouse\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e7\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8423",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Lampe": {
+                "name": "M.Lampe",
+                "rid": "0x20e8",
+                "rawinfo": "\tUser Name   :\tM.Lampe\n\tFull Name   :\tMika Lampe\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e8\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8424",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "L.Mcnaughton": {
+                "name": "L.Mcnaughton",
+                "rid": "0x20e9",
+                "rawinfo": "\tUser Name   :\tL.Mcnaughton\n\tFull Name   :\tLekisha Mcnaughton\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20e9\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8425",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Halas": {
+                "name": "D.Halas",
+                "rid": "0x20ea",
+                "rawinfo": "\tUser Name   :\tD.Halas\n\tFull Name   :\tDoreen Halas\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20ea\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8426",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "R.Burstein": {
+                "name": "R.Burstein",
+                "rid": "0x20eb",
+                "rawinfo": "\tUser Name   :\tR.Burstein\n\tFull Name   :\tRubie Burstein\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20eb\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8427",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "V.Layman": {
+                "name": "V.Layman",
+                "rid": "0x20ec",
+                "rawinfo": "\tUser Name   :\tV.Layman\n\tFull Name   :\tVicky Layman\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:14 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20ec\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8428",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "A.Marsland": {
+                "name": "A.Marsland",
+                "rid": "0x20ed",
+                "rawinfo": "\tUser Name   :\tA.Marsland\n\tFull Name   :\tAlfonzo Marsland\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20ed\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8429",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Rosamond": {
+                "name": "D.Rosamond",
+                "rid": "0x20ee",
+                "rawinfo": "\tUser Name   :\tD.Rosamond\n\tFull Name   :\tDelia Rosamond\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20ee\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8430",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "B.Riche": {
+                "name": "B.Riche",
+                "rid": "0x20ef",
+                "rawinfo": "\tUser Name   :\tB.Riche\n\tFull Name   :\tBrady Riche\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20ef\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8431",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "J.Wiste": {
+                "name": "J.Wiste",
+                "rid": "0x20f0",
+                "rawinfo": "\tUser Name   :\tJ.Wiste\n\tFull Name   :\tJosue Wiste\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f0\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8432",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "T.Lefebre": {
+                "name": "T.Lefebre",
+                "rid": "0x20f1",
+                "rawinfo": "\tUser Name   :\tT.Lefebre\n\tFull Name   :\tTyra Lefebre\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f1\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8433",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "S.Dalrymple": {
+                "name": "S.Dalrymple",
+                "rid": "0x20f2",
+                "rawinfo": "\tUser Name   :\tS.Dalrymple\n\tFull Name   :\tSandee Dalrymple\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f2\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8434",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "R.Stoneking": {
+                "name": "R.Stoneking",
+                "rid": "0x20f3",
+                "rawinfo": "\tUser Name   :\tR.Stoneking\n\tFull Name   :\tRetha Stoneking\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f3\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8435",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "S.Russom": {
+                "name": "S.Russom",
+                "rid": "0x20f4",
+                "rawinfo": "\tUser Name   :\tS.Russom\n\tFull Name   :\tShella Russom\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f4\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8436",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Maxwell": {
+                "name": "M.Maxwell",
+                "rid": "0x20f5",
+                "rawinfo": "\tUser Name   :\tM.Maxwell\n\tFull Name   :\tMollie Maxwell\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f5\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8437",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "Z.Sowders": {
+                "name": "Z.Sowders",
+                "rid": "0x20f6",
+                "rawinfo": "\tUser Name   :\tZ.Sowders\n\tFull Name   :\tZaida Sowders\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f6\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8438",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Hoy": {
+                "name": "M.Hoy",
+                "rid": "0x20f7",
+                "rawinfo": "\tUser Name   :\tM.Hoy\n\tFull Name   :\tMauricio Hoy\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f7\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8439",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "C.Selzer": {
+                "name": "C.Selzer",
+                "rid": "0x20f8",
+                "rawinfo": "\tUser Name   :\tC.Selzer\n\tFull Name   :\tCheri Selzer\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f8\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8440",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "K.Leiker": {
+                "name": "K.Leiker",
+                "rid": "0x20f9",
+                "rawinfo": "\tUser Name   :\tK.Leiker\n\tFull Name   :\tKathlyn Leiker\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20f9\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8441",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "S.Gerst": {
+                "name": "S.Gerst",
+                "rid": "0x20fa",
+                "rawinfo": "\tUser Name   :\tS.Gerst\n\tFull Name   :\tSalley Gerst\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20fa\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8442",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Kennemer": {
+                "name": "D.Kennemer",
+                "rid": "0x20fb",
+                "rawinfo": "\tUser Name   :\tD.Kennemer\n\tFull Name   :\tDelois Kennemer\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:15 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20fb\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8443",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "L.Angelo": {
+                "name": "L.Angelo",
+                "rid": "0x20fc",
+                "rawinfo": "\tUser Name   :\tL.Angelo\n\tFull Name   :\tLuis Angelo\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20fc\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8444",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "L.Gamino": {
+                "name": "L.Gamino",
+                "rid": "0x20fd",
+                "rawinfo": "\tUser Name   :\tL.Gamino\n\tFull Name   :\tLayne Gamino\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20fd\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8445",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "S.Tacey": {
+                "name": "S.Tacey",
+                "rid": "0x20fe",
+                "rawinfo": "\tUser Name   :\tS.Tacey\n\tFull Name   :\tSharen Tacey\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20fe\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8446",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "E.Bouknight": {
+                "name": "E.Bouknight",
+                "rid": "0x20ff",
+                "rawinfo": "\tUser Name   :\tE.Bouknight\n\tFull Name   :\tErica Bouknight\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x20ff\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8447",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "L.Soriano": {
+                "name": "L.Soriano",
+                "rid": "0x2100",
+                "rawinfo": "\tUser Name   :\tL.Soriano\n\tFull Name   :\tLatoyia Soriano\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2100\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8448",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Wentz": {
+                "name": "M.Wentz",
+                "rid": "0x2101",
+                "rawinfo": "\tUser Name   :\tM.Wentz\n\tFull Name   :\tMaryln Wentz\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2101\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8449",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "G.Fuller": {
+                "name": "G.Fuller",
+                "rid": "0x2102",
+                "rawinfo": "\tUser Name   :\tG.Fuller\n\tFull Name   :\tGilberte Fuller\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2102\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8450",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "C.Linen": {
+                "name": "C.Linen",
+                "rid": "0x2103",
+                "rawinfo": "\tUser Name   :\tC.Linen\n\tFull Name   :\tChristopher Linen\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2103\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8451",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "J.Murrell": {
+                "name": "J.Murrell",
+                "rid": "0x2104",
+                "rawinfo": "\tUser Name   :\tJ.Murrell\n\tFull Name   :\tJean Murrell\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2104\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8452",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "A.Eisenmenger": {
+                "name": "A.Eisenmenger",
+                "rid": "0x2105",
+                "rawinfo": "\tUser Name   :\tA.Eisenmenger\n\tFull Name   :\tAnnabelle Eisenmenger\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2105\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8453",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "S.Poore": {
+                "name": "S.Poore",
+                "rid": "0x2106",
+                "rawinfo": "\tUser Name   :\tS.Poore\n\tFull Name   :\tSha Poore\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2106\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8454",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "A.Fritzler": {
+                "name": "A.Fritzler",
+                "rid": "0x2107",
+                "rawinfo": "\tUser Name   :\tA.Fritzler\n\tFull Name   :\tAimee Fritzler\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2107\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8455",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Otter": {
+                "name": "M.Otter",
+                "rid": "0x2108",
+                "rawinfo": "\tUser Name   :\tM.Otter\n\tFull Name   :\tManuel Otter\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2108\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8456",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "S.Kerfoot": {
+                "name": "S.Kerfoot",
+                "rid": "0x2109",
+                "rawinfo": "\tUser Name   :\tS.Kerfoot\n\tFull Name   :\tShara Kerfoot\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2109\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8457",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "B.Saari": {
+                "name": "B.Saari",
+                "rid": "0x210a",
+                "rawinfo": "\tUser Name   :\tB.Saari\n\tFull Name   :\tBea Saari\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x210a\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8458",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Colberg": {
+                "name": "M.Colberg",
+                "rid": "0x210b",
+                "rawinfo": "\tUser Name   :\tM.Colberg\n\tFull Name   :\tMaxima Colberg\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x210b\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8459",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "V.Reighard": {
+                "name": "V.Reighard",
+                "rid": "0x210c",
+                "rawinfo": "\tUser Name   :\tV.Reighard\n\tFull Name   :\tVirgina Reighard\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x210c\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8460",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "S.Leverich": {
+                "name": "S.Leverich",
+                "rid": "0x210d",
+                "rawinfo": "\tUser Name   :\tS.Leverich\n\tFull Name   :\tSheridan Leverich\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:16 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x210d\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8461",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "C.Hernadez": {
+                "name": "C.Hernadez",
+                "rid": "0x210e",
+                "rawinfo": "\tUser Name   :\tC.Hernadez\n\tFull Name   :\tChrista Hernadez\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x210e\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8462",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "E.Bolander": {
+                "name": "E.Bolander",
+                "rid": "0x210f",
+                "rawinfo": "\tUser Name   :\tE.Bolander\n\tFull Name   :\tEldon Bolander\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x210f\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8463",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "S.Abercrombie": {
+                "name": "S.Abercrombie",
+                "rid": "0x2110",
+                "rawinfo": "\tUser Name   :\tS.Abercrombie\n\tFull Name   :\tSid Abercrombie\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2110\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8464",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Kawasaki": {
+                "name": "D.Kawasaki",
+                "rid": "0x2111",
+                "rawinfo": "\tUser Name   :\tD.Kawasaki\n\tFull Name   :\tDarrin Kawasaki\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2111\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8465",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "J.Killion": {
+                "name": "J.Killion",
+                "rid": "0x2112",
+                "rawinfo": "\tUser Name   :\tJ.Killion\n\tFull Name   :\tJoanie Killion\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2112\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8466",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "C.Spann": {
+                "name": "C.Spann",
+                "rid": "0x2113",
+                "rawinfo": "\tUser Name   :\tC.Spann\n\tFull Name   :\tChristie Spann\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2113\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8467",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "E.Bascom": {
+                "name": "E.Bascom",
+                "rid": "0x2114",
+                "rawinfo": "\tUser Name   :\tE.Bascom\n\tFull Name   :\tElyse Bascom\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2114\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8468",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "W.Haakenson": {
+                "name": "W.Haakenson",
+                "rid": "0x2115",
+                "rawinfo": "\tUser Name   :\tW.Haakenson\n\tFull Name   :\tWilletta Haakenson\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2115\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8469",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "K.Corney": {
+                "name": "K.Corney",
+                "rid": "0x2116",
+                "rawinfo": "\tUser Name   :\tK.Corney\n\tFull Name   :\tKemberly Corney\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2116\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8470",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "K.Husby": {
+                "name": "K.Husby",
+                "rid": "0x2117",
+                "rawinfo": "\tUser Name   :\tK.Husby\n\tFull Name   :\tKorey Husby\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2117\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8471",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "R.Avina": {
+                "name": "R.Avina",
+                "rid": "0x2118",
+                "rawinfo": "\tUser Name   :\tR.Avina\n\tFull Name   :\tRhett Avina\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2118\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8472",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "C.Corpuz": {
+                "name": "C.Corpuz",
+                "rid": "0x2119",
+                "rawinfo": "\tUser Name   :\tC.Corpuz\n\tFull Name   :\tCristen Corpuz\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2119\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8473",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Tilman": {
+                "name": "M.Tilman",
+                "rid": "0x211a",
+                "rawinfo": "\tUser Name   :\tM.Tilman\n\tFull Name   :\tMaribel Tilman\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:17 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x211a\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8474",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "T.Blass": {
+                "name": "T.Blass",
+                "rid": "0x211b",
+                "rawinfo": "\tUser Name   :\tT.Blass\n\tFull Name   :\tTamika Blass\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x211b\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8475",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "B.Schweitzer": {
+                "name": "B.Schweitzer",
+                "rid": "0x211c",
+                "rawinfo": "\tUser Name   :\tB.Schweitzer\n\tFull Name   :\tBrande Schweitzer\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x211c\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8476",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Information Technology": {
+                        "name": "Information Technology",
+                        "rid": "0x455"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "W.Loch": {
+                "name": "W.Loch",
+                "rid": "0x211d",
+                "rawinfo": "\tUser Name   :\tW.Loch\n\tFull Name   :\tWillian Loch\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x211d\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8477",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "N.Broady": {
+                "name": "N.Broady",
+                "rid": "0x211e",
+                "rawinfo": "\tUser Name   :\tN.Broady\n\tFull Name   :\tNathan Broady\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x211e\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8478",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "L.Sarver": {
+                "name": "L.Sarver",
+                "rid": "0x211f",
+                "rawinfo": "\tUser Name   :\tL.Sarver\n\tFull Name   :\tLucila Sarver\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x211f\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8479",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "F.Ousley": {
+                "name": "F.Ousley",
+                "rid": "0x2120",
+                "rawinfo": "\tUser Name   :\tF.Ousley\n\tFull Name   :\tFederico Ousley\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2120\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8480",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "T.Prestidge": {
+                "name": "T.Prestidge",
+                "rid": "0x2121",
+                "rawinfo": "\tUser Name   :\tT.Prestidge\n\tFull Name   :\tTabitha Prestidge\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2121\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8481",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "G.Nordeen": {
+                "name": "G.Nordeen",
+                "rid": "0x2122",
+                "rawinfo": "\tUser Name   :\tG.Nordeen\n\tFull Name   :\tGrazyna Nordeen\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2122\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8482",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "G.Youngberg": {
+                "name": "G.Youngberg",
+                "rid": "0x2123",
+                "rawinfo": "\tUser Name   :\tG.Youngberg\n\tFull Name   :\tGarland Youngberg\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2123\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8483",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "R.Zoll": {
+                "name": "R.Zoll",
+                "rid": "0x2124",
+                "rawinfo": "\tUser Name   :\tR.Zoll\n\tFull Name   :\tRich Zoll\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2124\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8484",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Thiel": {
+                "name": "M.Thiel",
+                "rid": "0x2125",
+                "rawinfo": "\tUser Name   :\tM.Thiel\n\tFull Name   :\tMathilde Thiel\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2125\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8485",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "N.Bitterman": {
+                "name": "N.Bitterman",
+                "rid": "0x2126",
+                "rawinfo": "\tUser Name   :\tN.Bitterman\n\tFull Name   :\tNancey Bitterman\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2126\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8486",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "V.Teran": {
+                "name": "V.Teran",
+                "rid": "0x2127",
+                "rawinfo": "\tUser Name   :\tV.Teran\n\tFull Name   :\tValerie Teran\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2127\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8487",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Pascucci": {
+                "name": "M.Pascucci",
+                "rid": "0x2128",
+                "rawinfo": "\tUser Name   :\tM.Pascucci\n\tFull Name   :\tMason Pascucci\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2128\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8488",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "F.Lu": {
+                "name": "F.Lu",
+                "rid": "0x2129",
+                "rawinfo": "\tUser Name   :\tF.Lu\n\tFull Name   :\tFanny Lu\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:18 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2129\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8489",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "I.Cortright": {
+                "name": "I.Cortright",
+                "rid": "0x212a",
+                "rawinfo": "\tUser Name   :\tI.Cortright\n\tFull Name   :\tIzetta Cortright\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x212a\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8490",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Birdwell": {
+                "name": "M.Birdwell",
+                "rid": "0x212b",
+                "rawinfo": "\tUser Name   :\tM.Birdwell\n\tFull Name   :\tMelba Birdwell\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x212b\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8491",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "E.Mogan": {
+                "name": "E.Mogan",
+                "rid": "0x212c",
+                "rawinfo": "\tUser Name   :\tE.Mogan\n\tFull Name   :\tEliseo Mogan\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x212c\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8492",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "F.Lietz": {
+                "name": "F.Lietz",
+                "rid": "0x212d",
+                "rawinfo": "\tUser Name   :\tF.Lietz\n\tFull Name   :\tFranklyn Lietz\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x212d\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8493",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "A.Mckendree": {
+                "name": "A.Mckendree",
+                "rid": "0x212e",
+                "rawinfo": "\tUser Name   :\tA.Mckendree\n\tFull Name   :\tAlona Mckendree\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x212e\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8494",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "R.Sepeda": {
+                "name": "R.Sepeda",
+                "rid": "0x212f",
+                "rawinfo": "\tUser Name   :\tR.Sepeda\n\tFull Name   :\tRita Sepeda\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x212f\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8495",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Doolin": {
+                "name": "D.Doolin",
+                "rid": "0x2130",
+                "rawinfo": "\tUser Name   :\tD.Doolin\n\tFull Name   :\tDeidra Doolin\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2130\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8496",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "J.Schack": {
+                "name": "J.Schack",
+                "rid": "0x2131",
+                "rawinfo": "\tUser Name   :\tJ.Schack\n\tFull Name   :\tJerrold Schack\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2131\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8497",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "E.Leclaire": {
+                "name": "E.Leclaire",
+                "rid": "0x2132",
+                "rawinfo": "\tUser Name   :\tE.Leclaire\n\tFull Name   :\tEmerson Leclaire\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2132\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8498",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "J.Uribe": {
+                "name": "J.Uribe",
+                "rid": "0x2133",
+                "rawinfo": "\tUser Name   :\tJ.Uribe\n\tFull Name   :\tJesenia Uribe\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2133\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8499",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Legal": {
+                        "name": "Legal",
+                        "rid": "0x451"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "Y.Lezama": {
+                "name": "Y.Lezama",
+                "rid": "0x2134",
+                "rawinfo": "\tUser Name   :\tY.Lezama\n\tFull Name   :\tYael Lezama\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2134\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8500",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "B.Evert": {
+                "name": "B.Evert",
+                "rid": "0x2135",
+                "rawinfo": "\tUser Name   :\tB.Evert\n\tFull Name   :\tBlossom Evert\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2135\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8501",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "D.Jin": {
+                "name": "D.Jin",
+                "rid": "0x2136",
+                "rawinfo": "\tUser Name   :\tD.Jin\n\tFull Name   :\tDeloras Jin\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2136\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8502",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "O.Sandoval": {
+                "name": "O.Sandoval",
+                "rid": "0x2137",
+                "rawinfo": "\tUser Name   :\tO.Sandoval\n\tFull Name   :\tOdell Sandoval\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2137\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8503",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "Y.Weinstein": {
+                "name": "Y.Weinstein",
+                "rid": "0x2138",
+                "rawinfo": "\tUser Name   :\tY.Weinstein\n\tFull Name   :\tYvone Weinstein\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2138\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8504",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Engineering": {
+                        "name": "Engineering",
+                        "rid": "0x453"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "C.Brice": {
+                "name": "C.Brice",
+                "rid": "0x2139",
+                "rawinfo": "\tUser Name   :\tC.Brice\n\tFull Name   :\tChristine Brice\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x2139\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8505",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "H.Shiba": {
+                "name": "H.Shiba",
+                "rid": "0x213a",
+                "rawinfo": "\tUser Name   :\tH.Shiba\n\tFull Name   :\tHong Shiba\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x213a\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8506",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Human Resources": {
+                        "name": "Human Resources",
+                        "rid": "0x450"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "G.Chica": {
+                "name": "G.Chica",
+                "rid": "0x213b",
+                "rawinfo": "\tUser Name   :\tG.Chica\n\tFull Name   :\tGenie Chica\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tFri, 03 Feb 2017 08:35:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:19 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x213b\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8507",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Finance": {
+                        "name": "Finance",
+                        "rid": "0x452"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "M.Hershberger": {
+                "name": "M.Hershberger",
+                "rid": "0x213c",
+                "rawinfo": "\tUser Name   :\tM.Hershberger\n\tFull Name   :\tMillie Hershberger\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 31 Dec 1969 19:00:00 EST\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tThu, 06 Dec 2018 06:59:21 EST\n\tPassword can change Time :\tThu, 06 Dec 2018 06:59:21 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x213c\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000000\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8508",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    },
+                    "Sales": {
+                        "name": "Sales",
+                        "rid": "0x454"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            },
+            "test": {
+                "name": "test",
+                "rid": "0x213e",
+                "rawinfo": "\tUser Name   :\ttest\n\tFull Name   :\tTest Test\n\tHome Drive  :\t\n\tDir Drive   :\t\n\tProfile Path:\t\n\tLogon Script:\t\n\tDescription :\t\n\tWorkstations:\t\n\tComment     :\t\n\tRemote Dial :\n\tLogon Time               :\tWed, 24 Oct 2018 05:53:37 EDT\n\tLogoff Time              :\tWed, 31 Dec 1969 19:00:00 EST\n\tKickoff Time             :\tWed, 13 Sep 30828 21:48:05 EST\n\tPassword last set Time   :\tTue, 24 Jan 2017 11:57:26 EST\n\tPassword can change Time :\tTue, 24 Jan 2017 11:57:26 EST\n\tPassword must change Time:\tWed, 13 Sep 30828 21:48:05 EST\n\tunknown_2[0..31]...\n\tuser_rid :\t0x213e\n\tgroup_rid:\t0x201\n\tacb_info :\t0x00000a10\n\tfields_present:\t0x00ffffff\n\tlogon_divs:\t168\n\tbad_password_count:\t0x00000000\n\tlogon_count:\t0x00000008\n\tpadding1[0..7]...\n\tlogon_hrs[0..21]...\n",
+                "sid": "S-1-5-21-3143832578-2511123263-3969369323-8510",
+                "groups": {
+                    "Domain Users": {
+                        "name": "Domain Users",
+                        "rid": "0x201"
+                    }
+                },
+                "aliases": {
+                    "domain": {}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+# Nmap 7.70 scan initiated Tue Dec  4 13:11:55 2018 as: /usr/bin/nmap -sU -p1-500 -v -v -T4 -sV -oN Results/192.168.0.1UDP 192.168.0.1

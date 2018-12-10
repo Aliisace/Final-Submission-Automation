@@ -1,0 +1,598 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 11:56 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 11:56
+Scanning 192.168.0.1 [1 port]
+Completed ARP Ping Scan at 11:56, 0.04s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 11:56
+Completed Parallel DNS resolution of 1 host. at 11:56, 0.03s elapsed
+Initiating Connect Scan at 11:56
+Scanning 192.168.0.1 [1000 ports]
+Discovered open port 139/tcp on 192.168.0.1
+Discovered open port 135/tcp on 192.168.0.1
+Discovered open port 53/tcp on 192.168.0.1
+Discovered open port 445/tcp on 192.168.0.1
+Discovered open port 80/tcp on 192.168.0.1
+Discovered open port 23/tcp on 192.168.0.1
+Discovered open port 636/tcp on 192.168.0.1
+Discovered open port 49160/tcp on 192.168.0.1
+Discovered open port 42/tcp on 192.168.0.1
+Discovered open port 464/tcp on 192.168.0.1
+Discovered open port 3269/tcp on 192.168.0.1
+Discovered open port 593/tcp on 192.168.0.1
+Discovered open port 49156/tcp on 192.168.0.1
+Discovered open port 389/tcp on 192.168.0.1
+Discovered open port 49152/tcp on 192.168.0.1
+Discovered open port 3268/tcp on 192.168.0.1
+Discovered open port 49155/tcp on 192.168.0.1
+Discovered open port 49161/tcp on 192.168.0.1
+Discovered open port 49154/tcp on 192.168.0.1
+Discovered open port 49153/tcp on 192.168.0.1
+Discovered open port 88/tcp on 192.168.0.1
+Completed Connect Scan at 11:56, 1.58s elapsed (1000 total ports)
+Initiating Service scan at 11:56
+Scanning 21 services on 192.168.0.1
+Completed Service scan at 11:57, 58.58s elapsed (21 services on 1 host)
+Initiating OS detection (try #1) against 192.168.0.1
+NSE: Script scanning 192.168.0.1.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 11:57
+Completed NSE at 11:57, 0.09s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 11:57
+Completed NSE at 11:57, 0.01s elapsed
+Nmap scan report for 192.168.0.1
+Host is up, received arp-response (0.0053s latency).
+Scanned at 2018-12-06 11:56:53 EST for 61s
+Not shown: 979 closed ports
+Reason: 979 conn-refused
+PORT      STATE SERVICE      REASON  VERSION
+23/tcp    open  telnet       syn-ack Microsoft Windows XP telnetd
+42/tcp    open  tcpwrapped   syn-ack
+53/tcp    open  domain       syn-ack Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+80/tcp    open  http         syn-ack Apache httpd
+88/tcp    open  kerberos-sec syn-ack Microsoft Windows Kerberos (server time: 2018-12-06 16:57:01Z)
+135/tcp   open  msrpc        syn-ack Microsoft Windows RPC
+139/tcp   open  netbios-ssn  syn-ack Microsoft Windows netbios-ssn
+389/tcp   open  ldap         syn-ack Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+445/tcp   open  microsoft-ds syn-ack Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: UADTARGETNET)
+464/tcp   open  kpasswd5?    syn-ack
+593/tcp   open  ncacn_http   syn-ack Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped   syn-ack
+3268/tcp  open  ldap         syn-ack Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+3269/tcp  open  tcpwrapped   syn-ack
+49152/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49153/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49154/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49155/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49156/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49160/tcp open  ncacn_http   syn-ack Microsoft Windows RPC over HTTP 1.0
+49161/tcp open  msrpc        syn-ack Microsoft Windows RPC
+MAC Address: 00:0C:29:65:8E:40 (VMware)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=12/6%OT=23%CT=1%CU=42461%PV=Y%DS=1%DC=D%G=Y%M=000C29%T
+OS:M=5C095513%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10A%TI=I%CI=I%II=I
+OS:%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8S
+OS:T11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=20
+OS:00%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=8
+OS:0%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(
+OS:R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F
+OS:=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%
+OS:T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD
+OS:=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE
+OS:(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.426 days (since Thu Dec  6 01:45:03 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: SERVER1; OSs: Windows XP, Windows; CPE: cpe:/o:microsoft:windows_xp, cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 62.04 seconds
+           Raw packets sent: 17 (1.446KB) | Rcvd: 17 (1.358KB)
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 11:57 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 11:57
+Scanning 192.168.0.2 [1 port]
+Completed ARP Ping Scan at 11:57, 0.03s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 11:57
+Completed Parallel DNS resolution of 1 host. at 11:57, 0.01s elapsed
+Initiating Connect Scan at 11:57
+Scanning 192.168.0.2 [1000 ports]
+Discovered open port 23/tcp on 192.168.0.2
+Discovered open port 80/tcp on 192.168.0.2
+Discovered open port 53/tcp on 192.168.0.2
+Discovered open port 445/tcp on 192.168.0.2
+Discovered open port 135/tcp on 192.168.0.2
+Discovered open port 49157/tcp on 192.168.0.2
+Discovered open port 88/tcp on 192.168.0.2
+Discovered open port 42/tcp on 192.168.0.2
+Discovered open port 636/tcp on 192.168.0.2
+Discovered open port 593/tcp on 192.168.0.2
+Discovered open port 139/tcp on 192.168.0.2
+Discovered open port 49152/tcp on 192.168.0.2
+Discovered open port 49156/tcp on 192.168.0.2
+Discovered open port 49158/tcp on 192.168.0.2
+Discovered open port 3268/tcp on 192.168.0.2
+Discovered open port 49154/tcp on 192.168.0.2
+Discovered open port 3269/tcp on 192.168.0.2
+Discovered open port 389/tcp on 192.168.0.2
+Discovered open port 49153/tcp on 192.168.0.2
+Discovered open port 464/tcp on 192.168.0.2
+Completed Connect Scan at 11:57, 1.38s elapsed (1000 total ports)
+Initiating Service scan at 11:57
+Scanning 20 services on 192.168.0.2
+Stats: 0:00:17 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 75.00% done; ETC: 11:58 (0:00:05 remaining)
+Completed Service scan at 11:58, 58.59s elapsed (20 services on 1 host)
+Initiating OS detection (try #1) against 192.168.0.2
+NSE: Script scanning 192.168.0.2.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 11:58
+Completed NSE at 11:58, 0.04s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 11:58
+Completed NSE at 11:58, 0.01s elapsed
+Nmap scan report for 192.168.0.2
+Host is up, received arp-response (0.00092s latency).
+Scanned at 2018-12-06 11:57:55 EST for 61s
+Not shown: 980 closed ports
+Reason: 980 conn-refused
+PORT      STATE SERVICE      REASON  VERSION
+23/tcp    open  telnet       syn-ack Microsoft Windows XP telnetd
+42/tcp    open  tcpwrapped   syn-ack
+53/tcp    open  domain       syn-ack Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+80/tcp    open  http         syn-ack Microsoft IIS httpd 7.5
+88/tcp    open  kerberos-sec syn-ack Microsoft Windows Kerberos (server time: 2018-12-06 16:58:02Z)
+135/tcp   open  msrpc        syn-ack Microsoft Windows RPC
+139/tcp   open  netbios-ssn  syn-ack Microsoft Windows netbios-ssn
+389/tcp   open  ldap         syn-ack Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+445/tcp   open  microsoft-ds syn-ack Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: UADTARGETNET)
+464/tcp   open  kpasswd5?    syn-ack
+593/tcp   open  ncacn_http   syn-ack Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped   syn-ack
+3268/tcp  open  ldap         syn-ack Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+3269/tcp  open  tcpwrapped   syn-ack
+49152/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49153/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49154/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49156/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49157/tcp open  ncacn_http   syn-ack Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc        syn-ack Microsoft Windows RPC
+MAC Address: 00:50:56:3A:42:9F (VMware)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=12/6%OT=23%CT=1%CU=33122%PV=Y%DS=1%DC=D%G=Y%M=005056%T
+OS:M=5C095550%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=109%TI=I%CI=I%II=I
+OS:%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8S
+OS:T11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=20
+OS:00%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=8
+OS:0%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(
+OS:R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F
+OS:=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%
+OS:T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD
+OS:=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE
+OS:(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.095 days (since Thu Dec  6 09:41:43 2018)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: SERVER2; OSs: Windows XP, Windows; CPE: cpe:/o:microsoft:windows_xp, cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 61.66 seconds
+           Raw packets sent: 17 (1.446KB) | Rcvd: 17 (1.358KB)
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 11:58 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 11:58
+Scanning 192.168.0.1 [1 port]
+Completed ARP Ping Scan at 11:58, 0.04s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 11:58
+Completed Parallel DNS resolution of 1 host. at 11:58, 0.01s elapsed
+Initiating UDP Scan at 11:58
+Scanning 192.168.0.1 [1000 ports]
+Discovered open port 49259/udp on 192.168.0.1
+Increasing send delay for 192.168.0.1 from 0 to 50 due to 11 out of 14 dropped probes since last increase.
+Increasing send delay for 192.168.0.1 from 50 to 100 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 10.52% done; ETC: 12:03 (0:04:24 remaining)
+Increasing send delay for 192.168.0.1 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.0.1 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Discovered open port 389/udp on 192.168.0.1
+UDP Scan Timing: About 14.67% done; ETC: 12:05 (0:05:55 remaining)
+Increasing send delay for 192.168.0.1 from 400 to 800 due to 11 out of 15 dropped probes since last increase.
+Discovered open port 49156/udp on 192.168.0.1
+Increasing send delay for 192.168.0.1 from 800 to 1000 due to 11 out of 22 dropped probes since last increase.
+UDP Scan Timing: About 17.00% done; ETC: 12:07 (0:07:24 remaining)
+UDP Scan Timing: About 19.40% done; ETC: 12:09 (0:08:23 remaining)
+Discovered open port 49199/udp on 192.168.0.1
+UDP Scan Timing: About 23.83% done; ETC: 12:10 (0:09:00 remaining)
+Discovered open port 49222/udp on 192.168.0.1
+UDP Scan Timing: About 29.50% done; ETC: 12:12 (0:09:36 remaining)
+Discovered open port 49226/udp on 192.168.0.1
+Discovered open port 49210/udp on 192.168.0.1
+Discovered open port 49152/udp on 192.168.0.1
+Discovered open port 49175/udp on 192.168.0.1
+Discovered open port 123/udp on 192.168.0.1
+Discovered open port 49195/udp on 192.168.0.1
+UDP Scan Timing: About 51.63% done; ETC: 12:17 (0:08:52 remaining)
+Discovered open port 137/udp on 192.168.0.1
+UDP Scan Timing: About 56.43% done; ETC: 12:17 (0:07:56 remaining)
+Discovered open port 49396/udp on 192.168.0.1
+UDP Scan Timing: About 62.73% done; ETC: 12:17 (0:07:01 remaining)
+Discovered open port 49209/udp on 192.168.0.1
+UDP Scan Timing: About 68.43% done; ETC: 12:18 (0:06:02 remaining)
+Discovered open port 49211/udp on 192.168.0.1
+UDP Scan Timing: About 73.83% done; ETC: 12:18 (0:05:03 remaining)
+Discovered open port 49640/udp on 192.168.0.1
+UDP Scan Timing: About 78.97% done; ETC: 12:18 (0:04:02 remaining)
+Discovered open port 53/udp on 192.168.0.1
+UDP Scan Timing: About 84.77% done; ETC: 12:18 (0:03:02 remaining)
+Discovered open port 49202/udp on 192.168.0.1
+UDP Scan Timing: About 89.97% done; ETC: 12:19 (0:02:02 remaining)
+Discovered open port 49207/udp on 192.168.0.1
+UDP Scan Timing: About 95.27% done; ETC: 12:19 (0:00:59 remaining)
+Discovered open port 49157/udp on 192.168.0.1
+Discovered open port 49187/udp on 192.168.0.1
+Discovered open port 49503/udp on 192.168.0.1
+Completed UDP Scan at 12:21, 1326.30s elapsed (1000 total ports)
+Initiating Service scan at 12:21
+Scanning 146 services on 192.168.0.1
+Discovered open port 88/udp on 192.168.0.1
+Discovered open|filtered port 88/udp on 192.168.0.1 is actually open
+Service scan Timing: About 16.44% done; ETC: 12:28 (0:06:21 remaining)
+Service scan Timing: About 36.30% done; ETC: 12:26 (0:03:10 remaining)
+Discovered open port 49158/udp on 192.168.0.1
+Discovered open|filtered port 49158/udp on 192.168.0.1 is actually open
+Discovered open port 49153/udp on 192.168.0.1
+Discovered open|filtered port 49153/udp on 192.168.0.1 is actually open
+Discovered open port 49154/udp on 192.168.0.1
+Discovered open|filtered port 49154/udp on 192.168.0.1 is actually open
+Discovered open port 49155/udp on 192.168.0.1
+Discovered open|filtered port 49155/udp on 192.168.0.1 is actually open
+Discovered open port 49159/udp on 192.168.0.1
+Discovered open|filtered port 49159/udp on 192.168.0.1 is actually open
+Discovered open port 49160/udp on 192.168.0.1
+Discovered open|filtered port 49160/udp on 192.168.0.1 is actually open
+Discovered open port 49161/udp on 192.168.0.1
+Discovered open|filtered port 49161/udp on 192.168.0.1 is actually open
+Discovered open port 49162/udp on 192.168.0.1
+Discovered open|filtered port 49162/udp on 192.168.0.1 is actually open
+Discovered open port 49163/udp on 192.168.0.1
+Discovered open|filtered port 49163/udp on 192.168.0.1 is actually open
+Discovered open port 49165/udp on 192.168.0.1
+Discovered open|filtered port 49165/udp on 192.168.0.1 is actually open
+Discovered open port 49166/udp on 192.168.0.1
+Discovered open|filtered port 49166/udp on 192.168.0.1 is actually open
+Discovered open port 49167/udp on 192.168.0.1
+Discovered open|filtered port 49167/udp on 192.168.0.1 is actually open
+Discovered open port 49168/udp on 192.168.0.1
+Discovered open|filtered port 49168/udp on 192.168.0.1 is actually open
+Discovered open port 49169/udp on 192.168.0.1
+Discovered open|filtered port 49169/udp on 192.168.0.1 is actually open
+Discovered open port 49170/udp on 192.168.0.1
+Discovered open|filtered port 49170/udp on 192.168.0.1 is actually open
+Discovered open port 49171/udp on 192.168.0.1
+Discovered open|filtered port 49171/udp on 192.168.0.1 is actually open
+Discovered open port 49172/udp on 192.168.0.1
+Discovered open|filtered port 49172/udp on 192.168.0.1 is actually open
+Discovered open port 49173/udp on 192.168.0.1
+Discovered open|filtered port 49173/udp on 192.168.0.1 is actually open
+Discovered open port 49174/udp on 192.168.0.1
+Discovered open|filtered port 49174/udp on 192.168.0.1 is actually open
+Discovered open port 49176/udp on 192.168.0.1
+Discovered open|filtered port 49176/udp on 192.168.0.1 is actually open
+Discovered open port 49177/udp on 192.168.0.1
+Discovered open|filtered port 49177/udp on 192.168.0.1 is actually open
+Service scan Timing: About 50.68% done; ETC: 12:25 (0:02:14 remaining)
+Discovered open port 49178/udp on 192.168.0.1
+Discovered open|filtered port 49178/udp on 192.168.0.1 is actually open
+Discovered open port 49179/udp on 192.168.0.1
+Discovered open|filtered port 49179/udp on 192.168.0.1 is actually open
+Discovered open port 49180/udp on 192.168.0.1
+Discovered open|filtered port 49180/udp on 192.168.0.1 is actually open
+Discovered open port 49181/udp on 192.168.0.1
+Discovered open|filtered port 49181/udp on 192.168.0.1 is actually open
+Discovered open port 49182/udp on 192.168.0.1
+Discovered open|filtered port 49182/udp on 192.168.0.1 is actually open
+Discovered open port 49184/udp on 192.168.0.1
+Discovered open|filtered port 49184/udp on 192.168.0.1 is actually open
+Discovered open port 49185/udp on 192.168.0.1
+Discovered open|filtered port 49185/udp on 192.168.0.1 is actually open
+Discovered open port 49186/udp on 192.168.0.1
+Discovered open|filtered port 49186/udp on 192.168.0.1 is actually open
+Discovered open port 49188/udp on 192.168.0.1
+Discovered open|filtered port 49188/udp on 192.168.0.1 is actually open
+Discovered open port 49189/udp on 192.168.0.1
+Discovered open|filtered port 49189/udp on 192.168.0.1 is actually open
+Discovered open port 49190/udp on 192.168.0.1
+Discovered open|filtered port 49190/udp on 192.168.0.1 is actually open
+Discovered open port 49191/udp on 192.168.0.1
+Discovered open|filtered port 49191/udp on 192.168.0.1 is actually open
+Discovered open port 49192/udp on 192.168.0.1
+Discovered open|filtered port 49192/udp on 192.168.0.1 is actually open
+Discovered open port 49194/udp on 192.168.0.1
+Discovered open|filtered port 49194/udp on 192.168.0.1 is actually open
+Discovered open port 49193/udp on 192.168.0.1
+Discovered open|filtered port 49193/udp on 192.168.0.1 is actually open
+Discovered open port 49196/udp on 192.168.0.1
+Discovered open|filtered port 49196/udp on 192.168.0.1 is actually open
+Discovered open port 49197/udp on 192.168.0.1
+Discovered open|filtered port 49197/udp on 192.168.0.1 is actually open
+Discovered open port 49198/udp on 192.168.0.1
+Discovered open|filtered port 49198/udp on 192.168.0.1 is actually open
+Discovered open port 49200/udp on 192.168.0.1
+Discovered open|filtered port 49200/udp on 192.168.0.1 is actually open
+Discovered open port 49201/udp on 192.168.0.1
+Discovered open|filtered port 49201/udp on 192.168.0.1 is actually open
+Discovered open port 49204/udp on 192.168.0.1
+Discovered open|filtered port 49204/udp on 192.168.0.1 is actually open
+Discovered open port 49205/udp on 192.168.0.1
+Discovered open|filtered port 49205/udp on 192.168.0.1 is actually open
+Discovered open port 49208/udp on 192.168.0.1
+Discovered open|filtered port 49208/udp on 192.168.0.1 is actually open
+Discovered open port 49212/udp on 192.168.0.1
+Discovered open|filtered port 49212/udp on 192.168.0.1 is actually open
+Discovered open port 49213/udp on 192.168.0.1
+Discovered open|filtered port 49213/udp on 192.168.0.1 is actually open
+Discovered open port 49214/udp on 192.168.0.1
+Discovered open|filtered port 49214/udp on 192.168.0.1 is actually open
+Discovered open port 49215/udp on 192.168.0.1
+Discovered open|filtered port 49215/udp on 192.168.0.1 is actually open
+Discovered open port 49216/udp on 192.168.0.1
+Discovered open|filtered port 49216/udp on 192.168.0.1 is actually open
+Discovered open port 49220/udp on 192.168.0.1
+Discovered open|filtered port 49220/udp on 192.168.0.1 is actually open
+Discovered open port 49262/udp on 192.168.0.1
+Discovered open|filtered port 49262/udp on 192.168.0.1 is actually open
+Discovered open port 49306/udp on 192.168.0.1
+Discovered open|filtered port 49306/udp on 192.168.0.1 is actually open
+Discovered open port 49350/udp on 192.168.0.1
+Discovered open|filtered port 49350/udp on 192.168.0.1 is actually open
+Service scan Timing: About 75.34% done; ETC: 12:24 (0:00:55 remaining)
+Discovered open port 49360/udp on 192.168.0.1
+Discovered open|filtered port 49360/udp on 192.168.0.1 is actually open
+Discovered open port 64481/udp on 192.168.0.1
+Discovered open|filtered port 64481/udp on 192.168.0.1 is actually open
+Discovered open port 49393/udp on 192.168.0.1
+Discovered open|filtered port 49393/udp on 192.168.0.1 is actually open
+Discovered open port 49968/udp on 192.168.0.1
+Discovered open|filtered port 49968/udp on 192.168.0.1 is actually open
+Discovered open port 50099/udp on 192.168.0.1
+Discovered open|filtered port 50099/udp on 192.168.0.1 is actually open
+Discovered open port 50164/udp on 192.168.0.1
+Discovered open|filtered port 50164/udp on 192.168.0.1 is actually open
+Discovered open port 64513/udp on 192.168.0.1
+Discovered open|filtered port 64513/udp on 192.168.0.1 is actually open
+Discovered open port 64590/udp on 192.168.0.1
+Discovered open|filtered port 64590/udp on 192.168.0.1 is actually open
+Discovered open port 64727/udp on 192.168.0.1
+Discovered open|filtered port 64727/udp on 192.168.0.1 is actually open
+Discovered open port 65024/udp on 192.168.0.1
+Discovered open|filtered port 65024/udp on 192.168.0.1 is actually open
+Completed Service scan at 12:25, 242.66s elapsed (146 services on 1 host)
+NSE: Script scanning 192.168.0.1.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 12:25
+Completed NSE at 12:25, 7.37s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 12:25
+Completed NSE at 12:25, 3.41s elapsed
+Nmap scan report for 192.168.0.1
+Host is up, received arp-response (0.0017s latency).
+Scanned at 2018-12-06 11:58:56 EST for 1580s
+Not shown: 854 closed ports, 60 open|filtered ports
+Reason: 854 port-unreaches and 60 no-responses
+PORT      STATE SERVICE      REASON               VERSION
+53/udp    open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+88/udp    open  kerberos-sec udp-response         Microsoft Windows Kerberos (server time: 2018-12-06 17:21:08Z)
+123/udp   open  ntp          udp-response ttl 128 NTP v3
+137/udp   open  netbios-ns   udp-response ttl 128 Microsoft Windows netbios-ssn (workgroup: UADTARGETNET)
+389/udp   open  ldap         udp-response ttl 128 Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+49152/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49153/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49154/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49155/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49156/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49157/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49158/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49159/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49160/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49161/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49162/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49163/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49165/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49166/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49167/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49168/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49169/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49170/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49171/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49172/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49173/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49174/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49175/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49176/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49177/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49178/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49179/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49180/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49181/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49182/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49184/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49185/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49186/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49187/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49188/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49189/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49190/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49191/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49192/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49193/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49194/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49195/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49196/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49197/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49198/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49199/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49200/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49201/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49202/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49204/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49205/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49207/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49208/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49209/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49210/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49211/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49212/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49213/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49214/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49215/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49216/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49220/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49222/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49226/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49259/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49262/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49306/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49350/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49360/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49393/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49396/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49503/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49640/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+49968/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+50099/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+50164/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+64481/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+64513/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+64590/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+64727/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+65024/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+MAC Address: 00:0C:29:65:8E:40 (VMware)
+Service Info: Host: SERVER1; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1580.26 seconds
+           Raw packets sent: 1859 (54.259KB) | Rcvd: 1080 (80.574KB)
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-12-06 12:25 EST
+NSE: Loaded 43 scripts for scanning.
+Initiating ARP Ping Scan at 12:25
+Scanning 192.168.0.2 [1 port]
+Completed ARP Ping Scan at 12:25, 0.03s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 12:25
+Completed Parallel DNS resolution of 1 host. at 12:25, 0.01s elapsed
+Initiating UDP Scan at 12:25
+Scanning 192.168.0.2 [1000 ports]
+Discovered open port 62575/udp on 192.168.0.2
+Increasing send delay for 192.168.0.2 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 192.168.0.2 from 50 to 100 due to max_successful_tryno increase to 6
+Warning: 192.168.0.2 giving up on port because retransmission cap hit (6).
+Increasing send delay for 192.168.0.2 from 100 to 200 due to 11 out of 13 dropped probes since last increase.
+UDP Scan Timing: About 14.34% done; ETC: 12:28 (0:03:05 remaining)
+Increasing send delay for 192.168.0.2 from 200 to 400 due to 11 out of 19 dropped probes since last increase.
+Increasing send delay for 192.168.0.2 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 18.33% done; ETC: 12:30 (0:04:32 remaining)
+Increasing send delay for 192.168.0.2 from 800 to 1000 due to 11 out of 19 dropped probes since last increase.
+UDP Scan Timing: About 20.70% done; ETC: 12:32 (0:05:49 remaining)
+Discovered open port 61481/udp on 192.168.0.2
+UDP Scan Timing: About 23.70% done; ETC: 12:33 (0:06:30 remaining)
+UDP Scan Timing: About 27.00% done; ETC: 12:34 (0:06:56 remaining)
+UDP Scan Timing: About 34.79% done; ETC: 12:36 (0:07:26 remaining)
+UDP Scan Timing: About 48.41% done; ETC: 12:38 (0:06:50 remaining)
+Discovered open port 61142/udp on 192.168.0.2
+UDP Scan Timing: About 55.81% done; ETC: 12:39 (0:06:09 remaining)
+Discovered open port 60381/udp on 192.168.0.2
+UDP Scan Timing: About 61.51% done; ETC: 12:39 (0:05:27 remaining)
+UDP Scan Timing: About 67.71% done; ETC: 12:39 (0:04:42 remaining)
+Discovered open port 389/udp on 192.168.0.2
+Discovered open port 60172/udp on 192.168.0.2
+Discovered open port 137/udp on 192.168.0.2
+UDP Scan Timing: About 73.11% done; ETC: 12:40 (0:03:58 remaining)
+Discovered open port 123/udp on 192.168.0.2
+Discovered open port 53/udp on 192.168.0.2
+UDP Scan Timing: About 78.71% done; ETC: 12:40 (0:03:12 remaining)
+UDP Scan Timing: About 84.21% done; ETC: 12:40 (0:02:25 remaining)
+Discovered open port 61961/udp on 192.168.0.2
+UDP Scan Timing: About 89.51% done; ETC: 12:40 (0:01:37 remaining)
+Discovered open port 62154/udp on 192.168.0.2
+UDP Scan Timing: About 94.71% done; ETC: 12:41 (0:00:50 remaining)
+Completed UDP Scan at 12:41, 988.20s elapsed (1000 total ports)
+Initiating Service scan at 12:41
+Scanning 92 services on 192.168.0.2
+Discovered open port 88/udp on 192.168.0.2
+Discovered open|filtered port 88/udp on 192.168.0.2 is actually open
+Service scan Timing: About 14.13% done; ETC: 12:50 (0:07:36 remaining)
+Service scan Timing: About 46.74% done; ETC: 12:46 (0:02:43 remaining)
+Service scan Timing: About 50.00% done; ETC: 12:47 (0:03:00 remaining)
+Discovered open port 60423/udp on 192.168.0.2
+Discovered open|filtered port 60423/udp on 192.168.0.2 is actually open
+Discovered open port 61024/udp on 192.168.0.2
+Discovered open|filtered port 61024/udp on 192.168.0.2 is actually open
+Discovered open port 61319/udp on 192.168.0.2
+Discovered open|filtered port 61319/udp on 192.168.0.2 is actually open
+Discovered open port 61322/udp on 192.168.0.2
+Discovered open|filtered port 61322/udp on 192.168.0.2 is actually open
+Discovered open port 61370/udp on 192.168.0.2
+Discovered open|filtered port 61370/udp on 192.168.0.2 is actually open
+Discovered open port 61412/udp on 192.168.0.2
+Discovered open|filtered port 61412/udp on 192.168.0.2 is actually open
+Discovered open port 61550/udp on 192.168.0.2
+Discovered open|filtered port 61550/udp on 192.168.0.2 is actually open
+Discovered open port 61685/udp on 192.168.0.2
+Discovered open|filtered port 61685/udp on 192.168.0.2 is actually open
+Discovered open port 62287/udp on 192.168.0.2
+Discovered open|filtered port 62287/udp on 192.168.0.2 is actually open
+Completed Service scan at 12:46, 272.68s elapsed (92 services on 1 host)
+NSE: Script scanning 192.168.0.2.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 12:46
+Completed NSE at 12:46, 7.28s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 12:46
+Completed NSE at 12:46, 4.62s elapsed
+Nmap scan report for 192.168.0.2
+Host is up, received arp-response (0.00085s latency).
+Scanned at 2018-12-06 12:25:17 EST for 1273s
+Not shown: 908 closed ports, 71 open|filtered ports
+Reason: 908 port-unreaches and 71 no-responses
+PORT      STATE SERVICE      REASON               VERSION
+53/udp    open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+88/udp    open  kerberos-sec udp-response         Microsoft Windows Kerberos (server time: 2018-12-06 17:41:50Z)
+123/udp   open  ntp          udp-response ttl 128 Microsoft NTP
+137/udp   open  netbios-ns   udp-response ttl 128 Microsoft Windows netbios-ssn (workgroup: UADTARGETNET)
+389/udp   open  ldap         udp-response ttl 128 Microsoft Windows Active Directory LDAP (Domain: uadtargetnet.com, Site: lab-site1)
+60172/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+60381/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+60423/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61024/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61142/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61319/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61322/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61370/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61412/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61481/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61550/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61685/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+61961/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+62154/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+62287/udp open  domain       udp-response         Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+62575/udp open  domain       udp-response ttl 128 Microsoft DNS 6.1.7601 (1DB1446A) (Windows Server 2008 R2 SP1)
+MAC Address: 00:50:56:3A:42:9F (VMware)
+Service Info: Host: SERVER2; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1273.22 seconds
+           Raw packets sent: 1719 (50.985KB) | Rcvd: 1230 (106.328KB)

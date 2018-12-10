@@ -1,0 +1,1248 @@
+192.168.0.1:
+
+User: Administrator
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-500
+	| RID: 0x1f4
+	| Groups: 
+		| Name: Domain Admins
+			| RID: 0x200
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Schema Admins
+			| RID: 0x206
+		| Name: Enterprise Admins
+			| RID: 0x207
+		| Name: Group Policy Creator Owners
+			| RID: 0x208
+
+	| Aliases: 
+		domain
+
+User: Guest
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-501
+	| RID: 0x1f5
+	| Groups: 
+		| Name: Domain Guests
+			| RID: 0x202
+
+	| Aliases: 
+		domain
+
+User: krbtgt
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-502
+	| RID: 0x1f6
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+
+	| Aliases: 
+		domain
+
+User: Benny Hill
+	| SID: 
+	| RID: 0x3e8
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+
+	| Aliases: 
+		domain
+
+User: R.Gudino
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8410
+	| RID: 0x20da
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: E.Breck
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8411
+	| RID: 0x20db
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: D.Lecroy
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8412
+	| RID: 0x20dc
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: C.Armes
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8413
+	| RID: 0x20dd
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: C.Yother
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8414
+	| RID: 0x20de
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: K.Dipaola
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8415
+	| RID: 0x20df
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: M.Lanasa
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8416
+	| RID: 0x20e0
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: D.Clinard
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8417
+	| RID: 0x20e1
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: W.Parekh
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8418
+	| RID: 0x20e2
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: N.Hooton
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8419
+	| RID: 0x20e3
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: D.Mcdonough
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8420
+	| RID: 0x20e4
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: M.Bonneau
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8421
+	| RID: 0x20e5
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: F.Nelms
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8422
+	| RID: 0x20e6
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: E.Hillhouse
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8423
+	| RID: 0x20e7
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: M.Lampe
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8424
+	| RID: 0x20e8
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: L.Mcnaughton
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8425
+	| RID: 0x20e9
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: D.Halas
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8426
+	| RID: 0x20ea
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: R.Burstein
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8427
+	| RID: 0x20eb
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: V.Layman
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8428
+	| RID: 0x20ec
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: A.Marsland
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8429
+	| RID: 0x20ed
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: D.Rosamond
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8430
+	| RID: 0x20ee
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: B.Riche
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8431
+	| RID: 0x20ef
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: J.Wiste
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8432
+	| RID: 0x20f0
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: T.Lefebre
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8433
+	| RID: 0x20f1
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: S.Dalrymple
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8434
+	| RID: 0x20f2
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: R.Stoneking
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8435
+	| RID: 0x20f3
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: S.Russom
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8436
+	| RID: 0x20f4
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: M.Maxwell
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8437
+	| RID: 0x20f5
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: Z.Sowders
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8438
+	| RID: 0x20f6
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: M.Hoy
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8439
+	| RID: 0x20f7
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: C.Selzer
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8440
+	| RID: 0x20f8
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: K.Leiker
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8441
+	| RID: 0x20f9
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: S.Gerst
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8442
+	| RID: 0x20fa
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: D.Kennemer
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8443
+	| RID: 0x20fb
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: L.Angelo
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8444
+	| RID: 0x20fc
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: L.Gamino
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8445
+	| RID: 0x20fd
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: S.Tacey
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8446
+	| RID: 0x20fe
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: E.Bouknight
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8447
+	| RID: 0x20ff
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: L.Soriano
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8448
+	| RID: 0x2100
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: M.Wentz
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8449
+	| RID: 0x2101
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: G.Fuller
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8450
+	| RID: 0x2102
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: C.Linen
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8451
+	| RID: 0x2103
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: J.Murrell
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8452
+	| RID: 0x2104
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: A.Eisenmenger
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8453
+	| RID: 0x2105
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: S.Poore
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8454
+	| RID: 0x2106
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: A.Fritzler
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8455
+	| RID: 0x2107
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: M.Otter
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8456
+	| RID: 0x2108
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: S.Kerfoot
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8457
+	| RID: 0x2109
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: B.Saari
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8458
+	| RID: 0x210a
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: M.Colberg
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8459
+	| RID: 0x210b
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: V.Reighard
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8460
+	| RID: 0x210c
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: S.Leverich
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8461
+	| RID: 0x210d
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: C.Hernadez
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8462
+	| RID: 0x210e
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: E.Bolander
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8463
+	| RID: 0x210f
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: S.Abercrombie
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8464
+	| RID: 0x2110
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: D.Kawasaki
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8465
+	| RID: 0x2111
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: J.Killion
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8466
+	| RID: 0x2112
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: C.Spann
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8467
+	| RID: 0x2113
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: E.Bascom
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8468
+	| RID: 0x2114
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: W.Haakenson
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8469
+	| RID: 0x2115
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: K.Corney
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8470
+	| RID: 0x2116
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: K.Husby
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8471
+	| RID: 0x2117
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: R.Avina
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8472
+	| RID: 0x2118
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: C.Corpuz
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8473
+	| RID: 0x2119
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: M.Tilman
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8474
+	| RID: 0x211a
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: T.Blass
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8475
+	| RID: 0x211b
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: B.Schweitzer
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8476
+	| RID: 0x211c
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Information Technology
+			| RID: 0x455
+
+	| Aliases: 
+		domain
+
+User: W.Loch
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8477
+	| RID: 0x211d
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: N.Broady
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8478
+	| RID: 0x211e
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: L.Sarver
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8479
+	| RID: 0x211f
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: F.Ousley
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8480
+	| RID: 0x2120
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: T.Prestidge
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8481
+	| RID: 0x2121
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: G.Nordeen
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8482
+	| RID: 0x2122
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: G.Youngberg
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8483
+	| RID: 0x2123
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: R.Zoll
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8484
+	| RID: 0x2124
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: M.Thiel
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8485
+	| RID: 0x2125
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: N.Bitterman
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8486
+	| RID: 0x2126
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: V.Teran
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8487
+	| RID: 0x2127
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: M.Pascucci
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8488
+	| RID: 0x2128
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: F.Lu
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8489
+	| RID: 0x2129
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: I.Cortright
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8490
+	| RID: 0x212a
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: M.Birdwell
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8491
+	| RID: 0x212b
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: E.Mogan
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8492
+	| RID: 0x212c
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: F.Lietz
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8493
+	| RID: 0x212d
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: A.Mckendree
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8494
+	| RID: 0x212e
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: R.Sepeda
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8495
+	| RID: 0x212f
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: D.Doolin
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8496
+	| RID: 0x2130
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: J.Schack
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8497
+	| RID: 0x2131
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: E.Leclaire
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8498
+	| RID: 0x2132
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: J.Uribe
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8499
+	| RID: 0x2133
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Legal
+			| RID: 0x451
+
+	| Aliases: 
+		domain
+
+User: Y.Lezama
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8500
+	| RID: 0x2134
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: B.Evert
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8501
+	| RID: 0x2135
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: D.Jin
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8502
+	| RID: 0x2136
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: O.Sandoval
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8503
+	| RID: 0x2137
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: Y.Weinstein
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8504
+	| RID: 0x2138
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Engineering
+			| RID: 0x453
+
+	| Aliases: 
+		domain
+
+User: C.Brice
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8505
+	| RID: 0x2139
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: H.Shiba
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8506
+	| RID: 0x213a
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Human Resources
+			| RID: 0x450
+
+	| Aliases: 
+		domain
+
+User: G.Chica
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8507
+	| RID: 0x213b
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Finance
+			| RID: 0x452
+
+	| Aliases: 
+		domain
+
+User: M.Hershberger
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8508
+	| RID: 0x213c
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+		| Name: Sales
+			| RID: 0x454
+
+	| Aliases: 
+		domain
+
+User: test
+	| SID: S-1-5-21-3143832578-2511123263-3969369323-8510
+	| RID: 0x213e
+	| Groups: 
+		| Name: Domain Users
+			| RID: 0x201
+
+	| Aliases: 
+		domain
+

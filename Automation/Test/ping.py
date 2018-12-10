@@ -1,9 +1,8 @@
 import os
 import subprocess
 import sys
-import writeToFile
 
-hosts = {"192.168.0.1", "192.168.0.2"}
+hosts = {"192.168.0.1"}
 
 results = {}
 #Array of users with [name][info]
@@ -101,26 +100,24 @@ def enumUsers(host):
 if __name__ == "__main__":
     for host in hosts:
         print("host: " + host + "\n")
-        with open("/root/Desktop/Automation/Enumeration/Results/%s.txt" % host, "w") as file:
-            file.write(str(host) + ":\n\n")
-            print("User: \n")
+        with open("/root/Desktop/Automation/Test/users.txt", "w") as file:
             results[host] = {"users": enumUsers(host)}
             for index,user in enumerate(results[host]["users"]):
-                print("\t" + user)
-                file.write("User: " + str(user)  + "\n")
-                file.write("\t| SID: " + str(results[host]["users"][user]["sid"]) + "\n")
-                file.write("\t| RID: " + str(results[host]["users"][user]["rid"]) + "\n") 
-                file.write("\t| Groups: \n")
-                for index,group in enumerate(results[host]["users"][user]["groups"]):
-                    file.write("\t\t| Name: " + str(group) + "\n\t\t\t| RID: " + str(results[host]["users"][user]["groups"][group]["rid"]) + "\n")
-                file.write("\n\t| Aliases: ") 
-                for index,alias in enumerate(results[host]["users"][user]["aliases"]):
-                    file.write("\n\t\t" + str(alias) + "\n")
-                file.write("\n")
-        print("\n")
-        writeToFile.writeFile(results, host)
-        with open("/root/Desktop/Automation/Enumeration/Results/Raw Info %s.txt" % host, "w") as file:
-            file.write("Host: " + host + "\n") 
+                file.write(str(user)  + "\n")
+        with open("/root/Desktop/Automation/Test/rid.txt", "w") as file:
+            results[host] = {"users": enumUsers(host)}
             for index,user in enumerate(results[host]["users"]):
-                file.write("User: "+user +"\n | Raw info: \n")
-                file.write(str(results[host]["users"][user]["rawinfo"]) + "\n")        
+                file.write(str(results[host]["users"][user]["rid"])  + "\n")
+        with open("/root/Desktop/Automation/Test/sid.txt", "w") as file:
+            results[host] = {"users": enumUsers(host)}
+            for index,user in enumerate(results[host]["users"]):
+                file.write(str(results[host]["users"][user]["sid"])  + "\n")
+        with open("/root/Desktop/Automation/Test/rid.txt", "w") as file:
+            results[host] = {"users": enumUsers(host)}
+            for index,user in enumerate(results[host]["users"]):
+                file.write(str(results[host]["users"][user]["sid"])  + "\n")
+        with open("/root/Desktop/Automation/Test/raw.txt", "w") as file:
+            results[host] = {"users": enumUsers(host)}
+            for index,user in enumerate(results[host]["users"]):
+                file.write(str(results[host]["users"][user]["rawinfo"])  + "\n")
+        print("\n")
